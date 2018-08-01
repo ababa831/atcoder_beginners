@@ -1,5 +1,5 @@
 # atcoder_beginners
-I will upload submitted codes of AtCoder Begginers Contest.
+I will irregularly upload submitted codes of AtCoder Begginers Contest.
 
 ## Problems
 
