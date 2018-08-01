@@ -12,7 +12,7 @@ def odd_detector(a_list):
 
 n_division = 0
 while odd_detector(a_list) == 0:
-    a_list = [int(a/2) for a in a_list]
+    a_list = [a / 2 for a in a_list]
     n_division += 1
 
 print(n_division)
