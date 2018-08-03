@@ -10,3 +10,4 @@ I will irregularly upload submitted codes of AtCoder Begginers Contest.
 5. [4問目 ABC087B - Coins](https://abc087.contest.atcoder.jp/tasks/abc087_b)
 6. [5問目 ABC083B - Some Sums](https://abc083.contest.atcoder.jp/tasks/abc083_b)
 7. [6問目 ABC088B - Card Game for Two](https://abc088.contest.atcoder.jp/tasks/abc088_b)
+8. [7問目 ABC085B - Kagami Mochi](https://abc085.contest.atcoder.jp/tasks/abc085_b)
