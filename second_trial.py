@@ -57,4 +57,27 @@ for i in range(1, n+1):
         sum_num += i
 print(sum_num)
 
+# 6. 
+# key: sort
+n = int(input())
+a_list = list(map(int, input().split()))
+a_list = sorted(a_list, reverse=True)
+alice_point = sum(a_list[::2])
+bob_point = sum(a_list[1::2])
+print(alice_point-bob_point)
+
+## [related problem](https://beta.atcoder.jp/contests/abc067/tasks/abc067_b)
+n, k = map(int, input().split())
+l_list = list(map(int, input().split()))
+l_list =  sorted(l_list, reverse=True) # DESC
+max_len = sum(l_list[:k])
+print(max_len)
+
+# 7.
+# Use set function to get no duplicated group
+n = int(input())
+d_list = list(set(map(int, [input() for _ in range(n)])))
+d_list = sorted(d_list, reverse=True)
+print(len(d_list))
+
 
