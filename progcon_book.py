@@ -33,7 +33,7 @@ for i in range(1, n):
 print(max_sub)
 
 # 3. Problems related to sort algorithms are passed, 
-# because you don't need to full scratch codes about them 
+# because you don't need to code them by full scratch 
 # thanks to "sorted()" function in Python standard modules.
 # (If you have enough free time, you should learn the algorithms)
 
