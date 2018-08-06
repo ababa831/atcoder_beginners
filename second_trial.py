@@ -80,4 +80,31 @@ d_list = list(set(map(int, [input() for _ in range(n)])))
 d_list = sorted(d_list, reverse=True)
 print(len(d_list))
 
+# 8.
+# If coefficient number is M and total number of values are constrained, you should apply the number of loops as "M-1". 
+n, y =  map(int, input().split())
+for i in range(n+1):
+    for j in range(n+1-i):
+        if 10000 * i + 5000 * j + 1000 * (n - i - j) == y: # don't use "n+1"
+            print(i, j, n - i - j)
+            exit()
+print("-1 -1 -1")
+
+# 9.
+text = input().replace("eraser", "").replace("erase", "").replace("dreamer", "").replace("dream", "")
+if text == "":
+    print("YES")
+else:
+    print("NO")
+
+# 10.
+n =  int(input())
+for i in range(n):
+    t, x, y = map(int, input().split())
+    if x + y > t or (x + y) % 2 != t % 2:
+        print('No')
+        exit()
+print("Yes")
+
+
 

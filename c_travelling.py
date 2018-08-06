@@ -43,13 +43,13 @@ for i in range(n):
         #Gave up at this point.
 
 # A sapmle answer
-n = int(input())
+n =  int(input())
 for i in range(n):
-    t, x, y = map(int, input().split()) # input() when you access each trial
-    if x + y < t or (x + y) % 2 != t % 2:
-        print("NO")
+    t, x, y = map(int, input().split())
+    if x + y > t or (x + y) % 2 != t % 2:
+        print('No')
         exit()
-print("YES")
+print("Yes")
         
 
 
