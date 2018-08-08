@@ -57,7 +57,7 @@ for val in input_list:
         stack.append(operator[val](x, y))
 print(stack[0])
 
-# 4.3 ALDS1_3_B Queue
+# 4.3 ALDS1_3_B Queue p.87
 # Wrong answer at sight (Conditional branch should be modified)
 n_process, quantum = map(int, input().split())
 p_t_list = [input().split() for _ in range(n_process)]
