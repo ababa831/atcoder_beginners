@@ -56,3 +56,5 @@ for val in input_list:
         x = stack.pop()
         stack.append(operator[val](x, y))
 print(stack[0])
+
+# 4.3 ALDS1_3_B Queue
