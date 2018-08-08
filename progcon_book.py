@@ -84,9 +84,9 @@ p = queue.Queue()
 t = queue.Queue()
 
 n_process, quantum = map(int, input().split())
-p_t_list = np.array([input().split() for _ in range(n_process)])
-
-for p_i, t_i in zip(p_t_list[:, 0], p_t_list[:, 1]):
+# Add all elements to the queues
+for _ in range(n_process):
+    p_i, t_i = input().split()
     p.put(p_i)
     t.put(int(t_i))
 
@@ -106,7 +106,7 @@ while(fincount < n_process):
         print(p_val, elapsed_time)
         fincount += 1
         finish_p.append(p_val)
-    # Add process to end of the queue
+    # Add current process to end of the queue
     p.put(p_val)
     t.put(t_val)
     
