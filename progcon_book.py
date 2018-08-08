@@ -109,12 +109,3 @@ while(fincount < n_process):
     # Add current process to end of the queue
     p.put(p_val)
     t.put(t_val)
-    
-
-
-
-
-
-
-
-
