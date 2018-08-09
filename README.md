@@ -19,3 +19,11 @@ I will irregularly upload submitted codes of AtCoder Begginers Contest and answe
 [プログラミングコンテスト攻略のためのアルゴリズムとデータ構造](https://book.mynavi.jp/ec/products/detail/id=35408)
 
 ### Example problems
+- Chap. 2
+    - 2.2 
+
+**Note**
+
+Problems related to sort algorithms (in Chap. 3) are passed, because you don't need to code them by full scratch thanks to "sorted()" function in Python standard modules.
+
+(If you have enough free time, you should learn them)
