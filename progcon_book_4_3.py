@@ -25,7 +25,6 @@ while(fincount < n_process):
 """
 # Second trial with Queue class() (in standard modules)
 """
-import numpy as np
 import queue
 p = queue.Queue()
 t = queue.Queue()
@@ -92,9 +91,8 @@ class Queue(object):
             self.head += 1
         return x
 
-# Implementation of Round-robin scheduling
-import numpy as np
 
+# Implementation of Round-robin scheduling
 n_process, quantum = map(int, input().split())
 
 # Queue instance
