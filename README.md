@@ -23,6 +23,9 @@ I will irregularly upload submitted codes of AtCoder Begginers Contest and answe
     - 2.2 Top 3
     - 2.3 Top N
     - 2.5 ALDS1_1_D: Maximum Profit
+- Chap. 3
+    - Passed
+- Chap. 4
     - 4.2 ALDS1_3_A: Stack (reverse Polish notation)
     - 4.3 ALDS1_3_B Queue
 
