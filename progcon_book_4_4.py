@@ -102,7 +102,7 @@ elements_str = list(map(str, my_list.get_elem()))
 print(" ".join(elements_str))
 
 """
-wrong answer when below commands inputed
+wrong answer when below commands were inputed
 
 39
 insert 1
