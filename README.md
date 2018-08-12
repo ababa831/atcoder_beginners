@@ -28,6 +28,7 @@ I will irregularly upload submitted codes of AtCoder Begginers Contest and answe
 - Chap. 4
     - 4.2 ALDS1_3_A: Stack (reverse Polish notation)
     - 4.3 ALDS1_3_B Queue
+    - 4.4 [ALDS1_3_C Doubly Linked List](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_3_C&lang=jp)
 
 **Note**
 
