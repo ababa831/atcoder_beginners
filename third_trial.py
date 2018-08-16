@@ -29,7 +29,7 @@ while(is_even):
 
 print(n_operation)
 
-#4.
+#4. OK
 a, b, c, x = map(int, [input() for _ in range(4)])
 
 n_selection = 0
