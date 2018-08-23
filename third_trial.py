@@ -40,3 +40,14 @@ for i in range(a+1):
                 n_selection += 1
 
 print(n_selection)
+
+#5. OK (awkward thinking)
+n, a, b = map(int, input().split())
+total_val = 0
+for i in range(1, n+1):
+    i_str = str(i)
+    digits = list(i_str)
+    sum_digit = sum([int(digit) for digit in digits])
+    if sum_digit >= a and sum_digit <= b:
+        total_val += i
+print(total_val)
