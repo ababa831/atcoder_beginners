@@ -43,6 +43,7 @@ print(n_selection)
 
 #5. OK (awkward thinking)
 n, a, b = map(int, input().split())
+
 total_val = 0
 for i in range(1, n+1):
     i_str = str(i)
