@@ -35,3 +35,7 @@ I will irregularly upload submitted codes of AtCoder Begginers Contest and answe
 Problems related to sort algorithms (in Chap. 3) are passed, because you don't need to code them by full scratch thanks to "sorted()" function in Python standard modules.
 
 (If you have enough free time, you should learn them)
+
+## Additinal problems
+- [The string reversing problem](http://japanese.joelonsoftware.com/Articles/Interviewing.html) in Python 
+    - Written in [reverse_text.py](https://github.com/ababa893/atcoder_beginners/blob/master/reverse_text.py)
