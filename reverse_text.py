@@ -8,12 +8,14 @@ Output: "dlrow olleh"
 # Answer 1
 str_list = list(input())
 str_len = len(str_list)
+
 for i in range(int(str_len / 2)):
     tmp_char = str_list[i]
     str_list[i] = str_list[str_len - i - 1]
     str_list[str_len - i - 1] = tmp_char
 
 print("".join(str_list))
+
 
 # Answer 2 
 str_list = list(input())
