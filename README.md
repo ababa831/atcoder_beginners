@@ -1,5 +1,5 @@
 # atcoder_beginners
-I will irregularly upload submitted codes of the AtCoder Begginers Contest and answers of example problems written in [プログラミングコンテスト攻略のためのアルゴリズムとデータ構造](https://book.mynavi.jp/ec/products/detail/id=35408)
+I will irregularly upload submitted codes of the AtCoder Beginners Contest and answers of example problems written in [プログラミングコンテスト攻略のためのアルゴリズムとデータ構造](https://book.mynavi.jp/ec/products/detail/id=35408)
 
 ## Problems
 
@@ -36,6 +36,6 @@ Problems related to sort algorithms (in Chap. 3) are passed, because you don't n
 
 (If you have enough free time, you should learn them)
 
-## Additinal problems
+## Additional problems
 - [A string reversing problem](https://qiita.com/imadedede/items/055fa0c4eac7e0a07cf1) in Python 
     - Written in [reverse_text.py](https://github.com/ababa893/atcoder_beginners/blob/master/reverse_text.py)
