@@ -1,5 +1,5 @@
 # atcoder_beginners
-I will irregularly upload submitted codes of AtCoder Begginers Contest and answers of example problems written in [プログラミングコンテスト攻略のためのアルゴリズムとデータ構造](https://book.mynavi.jp/ec/products/detail/id=35408)
+I will irregularly upload submitted codes of the AtCoder Begginers Contest and answers of example problems written in [プログラミングコンテスト攻略のためのアルゴリズムとデータ構造](https://book.mynavi.jp/ec/products/detail/id=35408)
 
 ## Problems
 
