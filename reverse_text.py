@@ -7,7 +7,7 @@ Output: "dlrow olleh"
 """
 str_list = list(input())
 str_len = len(str_list)
-for i in range(int(len(str_list) / 2)):
+for i in range(int(str_len / 2)):
     tmp_char = str_list[i]
     str_list[i] = str_list[str_len - i - 1]
     str_list[str_len - i - 1] = tmp_char
