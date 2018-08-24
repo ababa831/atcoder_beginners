@@ -1,6 +1,7 @@
 """
 The code is not related to ProgContest problems which were introduced in README.md
 I just try a string reversing problem (http://japanese.joelonsoftware.com/Articles/Interviewing.html) in Python
+
 e.g. 
 Input: "hello world"
 Output: "dlrow olleh"
