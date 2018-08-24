@@ -21,9 +21,5 @@ print("".join(str_list))
 str_list = list(input())
 str_len = len(str_list)
 
-reversed_strlist = []
-for i in range(str_len):
-    tmp_char = str_list[str_len - i - 1]
-    reversed_strlist.append(tmp_char)
-
+reversed_strlist = [str_list[str_len -i -1] for i in range(str_len)]
 print("".join(reversed_strlist))
