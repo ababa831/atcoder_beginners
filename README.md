@@ -37,5 +37,5 @@ Problems related to sort algorithms (in Chap. 3) are passed, because you don't n
 (If you have enough free time, you should learn them)
 
 ## Additinal problems
-- [The string reversing problem](http://japanese.joelonsoftware.com/Articles/Interviewing.html) in Python 
+- [A string reversing problem](http://japanese.joelonsoftware.com/Articles/Interviewing.html) in Python 
     - Written in [reverse_text.py](https://github.com/ababa893/atcoder_beginners/blob/master/reverse_text.py)
