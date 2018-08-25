@@ -3,7 +3,7 @@ I will irregularly upload submitted codes of the AtCoder Beginners Contest and a
 
 ## Problems
 
-### [これだけ解けば十分闘える！過去問精選 10 問](https://qiita.com/drken/items/fd4e5e3630d0f5859067)
+### これだけ解けば十分闘える！過去問精選 10 問 [Ref](https://qiita.com/drken/items/fd4e5e3630d0f5859067)
 
 1. [0問目 PracticeA - はじめてのあっとこーだー（Welcome to AtCoder）](https://language-test-201603.contest.atcoder.jp/tasks/practice_1)
 2. [1問目 ABC086A - Product](https://abc086.contest.atcoder.jp/tasks/abc086_a)
