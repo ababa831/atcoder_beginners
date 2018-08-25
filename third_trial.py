@@ -72,7 +72,7 @@ for i in range(n):
 
 print(alice_point - bob_point)
 
-## Revenge
+## Revenge (elapsed time: 18ms)
 n = int(input())
 a_list = list(map(int, input().split()))
 a_list = sorted(a_list, reverse=True)
