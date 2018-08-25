@@ -3,6 +3,8 @@ I will irregularly upload submitted codes of the AtCoder Beginners Contest and a
 
 ## Problems
 
+### [これだけ解けば十分闘える！過去問精選 10 問](https://qiita.com/drken/items/fd4e5e3630d0f5859067)
+
 1. [0問目 PracticeA - はじめてのあっとこーだー（Welcome to AtCoder）](https://language-test-201603.contest.atcoder.jp/tasks/practice_1)
 2. [1問目 ABC086A - Product](https://abc086.contest.atcoder.jp/tasks/abc086_a)
 3. [2問目 ABC081A - Placing Marbles](https://abc081.contest.atcoder.jp/tasks/abc081_a)
@@ -14,6 +16,10 @@ I will irregularly upload submitted codes of the AtCoder Beginners Contest and a
 9. [8問目 ABC085C - Otoshidama](https://abc085.contest.atcoder.jp/tasks/abc085_c)
 10. [9問目 ABC049C - 白昼夢 / Daydream](https://abc049.contest.atcoder.jp/tasks/arc065_a)
 11. [10問目 ABC086C - Traveling](https://abc086.contest.atcoder.jp/tasks/arc089_a)
+
+### Past problems of AtCoder Beginners Contest
+- [ABC107](https://beta.atcoder.jp/contests/abc107)
+    - [a_train](https://github.com/ababa893/atcoder_beginners/blob/master/contest_107/a_train.py)
 
 ## Textbook
 [プログラミングコンテスト攻略のためのアルゴリズムとデータ構造](https://book.mynavi.jp/ec/products/detail/id=35408)
