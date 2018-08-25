@@ -52,3 +52,37 @@ for i in range(1, n+1):
     if sum_digit >= a and sum_digit <= b:
         total_val += i
 print(total_val)
+
+#6. OK, but this is a fucking code (elapsed time: 150ms)
+import numpy as np
+
+n = int(input())
+a_list = list(map(int, input().split()))
+
+alice_point = 0
+bob_point = 0
+for i in range(n):
+    argmax_a = np.argmax(a_list)
+    max_a = np.max(a_list)
+    if i % 2 == 0: # If Alice takes a card
+        alice_point += max_a
+    else: # If Bob takes a card
+        bob_point += max_a
+    del a_list[argmax_a] # No confidence -> Review how to delete a list element!
+
+print(alice_point - bob_point)
+
+## Revenge
+n = int(input())
+a_list = list(map(int, input().split()))
+a_list = sorted(a_list, reverse=True)
+
+alice_point = 0
+bob_point = 0
+for i in range(n):
+    if i % 2 == 0:
+        alice_point += a_list[i]
+    else:
+        bob_point += a_list[i]
+
+print(alice_point - bob_point)
