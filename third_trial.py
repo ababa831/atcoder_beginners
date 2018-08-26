@@ -86,3 +86,9 @@ for i in range(n):
         bob_point += a_list[i]
 
 print(alice_point - bob_point)
+
+#7. OK
+n = int(input())
+d_set = set(map(int, [input() for _ in range(n)]))
+print(len(d_set))
+
