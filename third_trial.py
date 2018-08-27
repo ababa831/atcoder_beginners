@@ -92,3 +92,21 @@ n = int(input())
 d_set = set(map(int, [input() for _ in range(n)]))
 print(len(d_set))
 
+#8. OK
+n, y = map(int, input().split())
+
+for i in range(n+1):
+    for j in range(n+1-i):
+        if 10000 * i + 5000 * j + 1000 * (n - i - j) == y:
+            # Show a canditate of bill combination.
+            print(i, j, n - i - j)
+            exit()
+# If there are no canditate, show -1 combination.
+print(-1, -1, -1)
+
+#9. OK (awkward thinking)
+s = input().replace("eraser", "").replace("erase", "").replace("dreamer", "").replace("dream", "")
+if s == "":
+    print("YES")
+else:
+    print("NO")
