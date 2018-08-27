@@ -19,7 +19,7 @@ I will irregularly upload submitted codes of the AtCoder Beginners Contest and a
 10. [9問目 ABC049C - 白昼夢 / Daydream](https://abc049.contest.atcoder.jp/tasks/arc065_a)
 11. [10問目 ABC086C - Traveling](https://abc086.contest.atcoder.jp/tasks/arc089_a)
 
-Ansewers are in `first_trial` directory, `second_trial.py` and `third_trial.py` in the root directory.
+Ansewers are in [first_trial](https://github.com/ababa893/atcoder_beginners/tree/master/first_trial) directory, [second_trial.py](https://github.com/ababa893/atcoder_beginners/blob/master/second_trial.py) and [third_trial.py](https://github.com/ababa893/atcoder_beginners/blob/master/third_trial.py) in the root directory.
 
 ### Past problems of AtCoder Beginners Contest
 - [ABC107](https://beta.atcoder.jp/contests/abc107)
