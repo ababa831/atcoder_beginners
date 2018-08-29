@@ -24,6 +24,7 @@ Ansewers are in [first_trial](https://github.com/ababa893/atcoder_beginners/tree
 ### Past problems of AtCoder Beginners Contest
 - [ABC107](https://beta.atcoder.jp/contests/abc107)
     - [a_train](https://github.com/ababa893/atcoder_beginners/blob/master/contest_107/a_train.py)
+    - [b_grid_compression](https://github.com/ababa893/atcoder_beginners/blob/master/contest_107/b_grid_compression.py)
 
 ## Textbook
 [プログラミングコンテスト攻略のためのアルゴリズムとデータ構造](https://book.mynavi.jp/ec/products/detail/id=35408)
