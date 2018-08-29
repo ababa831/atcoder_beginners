@@ -3,20 +3,34 @@ import numpy as np
 h, w =  map(int, input().split())
 
 # Get grid colors
-gird_colors = np.array([])
+grid_colors = np.array([])
 for _ in range(h):
     tmp_row = np.array(list(input()))
     if "#" in tmp_row: # If the row includes black
-        gird_colors = np.concatenate((gird_colors, tmp_row))
-gird_colors = gird_colors.reshape(-1, w)
+        grid_colors = np.concatenate((grid_colors, tmp_row))
+grid_colors = grid_colors.reshape(-1, w)
 
 # Search and delete white line
 del_count = 0
 for wi in range(w):
-    if "#" not in gird_colors[:, wi - del_count]:
-        gird_colors = np.delete(gird_colors, wi - del_count, 1)
+    if "#" not in grid_colors[:, wi - del_count]:
+        grid_colors = np.delete(grid_colors, wi - del_count, 1)
         del_count += 1
 
 # Print result
-for line_val in gird_colors:
+for line_val in grid_colors:
     print("".join(line_val)) 
+
+"""
+Tip:
+When you search columns in 2D-list, use zip(*2D_list) as shown in below example code.
+
+h, w = map(int, input().split())
+A = [input() for _ in range(H)]
+A = list(filter(lambda a: any(x == '#' for x in a), A))
+A = list(filter(lambda a: any(x == '#' for x in a), zip(*A)))
+for a in zip(*A):
+    print(''.join(a))
+
+(Ref:)
+"""
