@@ -19,18 +19,16 @@ for wi in range(w):
 
 # Print result
 for line_val in grid_colors:
-    print("".join(line_val)) 
+    print("".join(line_val))
 
 """
 Tip:
 When you search columns in 2D-list, use zip(*2D_list) as shown in below example code.
 
 h, w = map(int, input().split())
-A = [input() for _ in range(H)]
-A = list(filter(lambda a: any(x == '#' for x in a), A))
-A = list(filter(lambda a: any(x == '#' for x in a), zip(*A)))
-for a in zip(*A):
-    print(''.join(a))
-
-(Ref:)
+grid_colors = [input() for _ in range(h)]
+grid_colors = list(filter(lambda row: any(x == '#' for x in row), grid_colors))
+grid_colors = list(filter(lambda col: any(x == '#' for x in col), zip(*grid_colors)))
+for row in zip(*grid_colors):
+    print(''.join(row))
 """
