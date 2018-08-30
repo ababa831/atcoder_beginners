@@ -26,6 +26,8 @@ Ansewers are in [first_trial](https://github.com/ababa893/atcoder_beginners/tree
     - [a_train](https://github.com/ababa893/atcoder_beginners/blob/master/contest_107/a_train.py)
     - [b_grid_compression](https://github.com/ababa893/atcoder_beginners/blob/master/contest_107/b_grid_compression.py)
     - [c_candles]()
+- [ABC106](https://beta.atcoder.jp/contests/abc106/)
+    - [a_garden](https://github.com/ababa893/atcoder_beginners/blob/master/contest_106/a_garden.py)
 
 ## Textbook
 [プログラミングコンテスト攻略のためのアルゴリズムとデータ構造](https://book.mynavi.jp/ec/products/detail/id=35408)
