@@ -23,16 +23,18 @@ Ansewers are in [first_trial](https://github.com/ababa893/atcoder_beginners/tree
 
 ### Past problems of AtCoder Beginners Contest
 - [ABC109](https://beta.atcoder.jp/contests/abc108)
-    - [a_pair](https://github.com/ababa893/atcoder_beginners/blob/master/contest_109/a_pair.py)
-    - [b_ruined_square](https://github.com/ababa893/atcoder_beginners/blob/master/contest_109/b_ruined_square.py)
-    - [c_triangular_relationship](https://github.com/ababa893/atcoder_beginners/blob/master/contest_109/c_triangular_relationship.py) 
+    - First trial
+        - [a_pair](https://github.com/ababa893/atcoder_beginners/blob/master/contest_109/a_pair.py)
+        - [b_ruined_square](https://github.com/ababa893/atcoder_beginners/blob/master/contest_109/b_ruined_square.py)
+        - [c_triangular_relationship](https://github.com/ababa893/atcoder_beginners/blob/master/contest_109/c_triangular_relationship.py) 
+    - Second trial
+        - [b_ruined_square](https://github.com/ababa893/atcoder_beginners/blob/master/contest_109/b_ruined_square_2nd.py)
 - [ABC107](https://beta.atcoder.jp/contests/abc107)
     - First trial
         - [a_train](https://github.com/ababa893/atcoder_beginners/blob/master/contest_107/a_train.py)
         - [b_grid_compression](https://github.com/ababa893/atcoder_beginners/blob/master/contest_107/b_grid_compression.py)
         - [c_candles]()
     - Second trial
-        - [a_train]()
         - [b_grid_compression](https://github.com/ababa893/atcoder_beginners/blob/master/contest_107/b_grid_compression_2nd.py)
         - [c_candles]()
 - [ABC106](https://beta.atcoder.jp/contests/abc106/)
