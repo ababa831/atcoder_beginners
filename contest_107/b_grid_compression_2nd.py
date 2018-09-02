@@ -7,7 +7,6 @@ Usage:
 filter(lambda row: <filtering condition>, grid or zip(*grid)) 
 (Do not use if statement in <filtering condition> !)
 If true, the row is not be deleted
-
 """
 row_compressed_grid = list(filter(lambda row: any(x == "#" for x in row), grid))
 compressed_grid = list(filter(lambda col: any(x == "#" for x in col), zip(*row_compressed_grid)))
