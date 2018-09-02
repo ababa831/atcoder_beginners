@@ -27,9 +27,14 @@ Ansewers are in [first_trial](https://github.com/ababa893/atcoder_beginners/tree
     - [b_ruined_square](https://github.com/ababa893/atcoder_beginners/blob/master/contest_109/b_ruined_square.py)
     - [c_triangular_relationship](https://github.com/ababa893/atcoder_beginners/blob/master/contest_109/c_triangular_relationship.py) 
 - [ABC107](https://beta.atcoder.jp/contests/abc107)
-    - [a_train](https://github.com/ababa893/atcoder_beginners/blob/master/contest_107/a_train.py)
-    - [b_grid_compression](https://github.com/ababa893/atcoder_beginners/blob/master/contest_107/b_grid_compression.py)
-    - [c_candles]()
+    - First trial
+        - [a_train](https://github.com/ababa893/atcoder_beginners/blob/master/contest_107/a_train.py)
+        - [b_grid_compression](https://github.com/ababa893/atcoder_beginners/blob/master/contest_107/b_grid_compression.py)
+        - [c_candles]()
+    - Second trial
+        - [a_train]()
+        - [b_grid_compression](https://github.com/ababa893/atcoder_beginners/blob/master/contest_107/b_grid_compression_2nd.py)
+        - [c_candles]()
 - [ABC106](https://beta.atcoder.jp/contests/abc106/)
     - [a_garden](https://github.com/ababa893/atcoder_beginners/blob/master/contest_106/a_garden.py)
     - [b_105](https://github.com/ababa893/atcoder_beginners/blob/master/contest_106/b_105.py)
