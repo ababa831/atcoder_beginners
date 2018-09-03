@@ -40,6 +40,8 @@ Ansewers are in [first_trial](https://github.com/ababa893/atcoder_beginners/tree
 - [ABC106](https://beta.atcoder.jp/contests/abc106/)
     - [a_garden](https://github.com/ababa893/atcoder_beginners/blob/master/contest_106/a_garden.py)
     - [b_105](https://github.com/ababa893/atcoder_beginners/blob/master/contest_106/b_105.py)
+- [ABC105](https://beta.atcoder.jp/contests/abc105)
+    - [b_cakes_and_donuts](https://github.com/ababa893/atcoder_beginners/blob/master/contest_105/b_cakes_and_donuts.py)
 
 ## Textbook
 [プログラミングコンテスト攻略のためのアルゴリズムとデータ構造](https://book.mynavi.jp/ec/products/detail/id=35408)
