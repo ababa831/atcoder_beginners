@@ -11,5 +11,7 @@ for _ in range(n_oneroop):
 print("No")
 
 # A sample answer
-# s = input()
-# print('Yes' if input() in s + s else 'No')
+"""
+s = input()
+print('Yes' if input() in s + s else 'No')
+"""
