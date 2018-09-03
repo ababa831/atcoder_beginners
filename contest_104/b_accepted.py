@@ -14,7 +14,6 @@ s_extracted = s[2:-1]
 if s_extracted.count("C") != 1:
     print("WA")
     exit()
-
 # Get Upper characters without "A", "C"
 s_upper = [
     chara for chara in s if chara != "C" and chara != "A" and chara.isupper()
