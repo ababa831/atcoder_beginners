@@ -10,6 +10,6 @@ for _ in range(n_oneroop):
         exit()
 print("No")
 
-# A sample answer written in one liner
+# A sample answer
 # s = input()
 # print('Yes' if input() in s + s else 'No')
