@@ -64,7 +64,7 @@ Ansewers are in [first_trial](https://github.com/ababa893/atcoder_beginners/tree
 
 **Note**
 
-Problems related to sort algorithms (in Chap. 3) are passed, because you don't need to code them by full scratch thanks to `sorted()` function in Python standard modules.
+Problems related to sort algorithms (in Chap. 3) are skipped, because you don't need to code them by full scratch thanks to `sorted()` function in Python standard modules.
 
 (If you have enough free time, you should learn them)
 
