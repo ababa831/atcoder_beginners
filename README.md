@@ -46,6 +46,8 @@ Ansewers are in [first_trial](https://github.com/ababa893/atcoder_beginners/tree
     - [b_accepted](https://github.com/ababa893/atcoder_beginners/blob/master/contest_104/b_accepted.py)
 - [ABC103](https://beta.atcoder.jp/contests/abc103)
     - [b_string_rotation](https://github.com/ababa893/atcoder_beginners/blob/master/contest_103/b_string_rotation.py)
+- [ABC102](https://beta.atcoder.jp/contests/abc102)
+    - [b_maximum_difference](https://github.com/ababa893/atcoder_beginners/blob/master/contest_102/b_maximum_difference.py)
 
 ## Textbook
 [プログラミングコンテスト攻略のためのアルゴリズムとデータ構造](https://book.mynavi.jp/ec/products/detail/id=35408)
