@@ -48,6 +48,8 @@ Ansewers are in [first_trial](https://github.com/ababa893/atcoder_beginners/tree
     - [b_string_rotation](https://github.com/ababa893/atcoder_beginners/blob/master/contest_103/b_string_rotation.py)
 - [ABC102](https://beta.atcoder.jp/contests/abc102)
     - [b_maximum_difference](https://github.com/ababa893/atcoder_beginners/blob/master/contest_102/b_maximum_difference.py)
+- [ABC101](https://beta.atcoder.jp/contests/abc101/)
+    - [b_digit_sum](https://github.com/ababa893/atcoder_beginners/blob/master/contest_101/b_digit_sum.py)
 
 ## Textbook
 [プログラミングコンテスト攻略のためのアルゴリズムとデータ構造](https://book.mynavi.jp/ec/products/detail/id=35408)
