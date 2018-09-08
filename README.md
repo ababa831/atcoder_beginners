@@ -57,6 +57,8 @@ Ansewers are in [first_trial](https://github.com/ababa893/atcoder_beginners/tree
 - [ABC100](https://beta.atcoder.jp/contests/abc100/)
     - First trial
         - [b_ringos_favorite_numbers](https://github.com/ababa893/atcoder_beginners/blob/master/contest_100/b_ringos_favorite_numbers.py)
+    - Second trial
+        - [b_ringos_favorite_numbers](https://github.com/ababa893/atcoder_beginners/blob/master/contest_100/b_ringos_favorite_numbers_2nd.py)        
 
 ## Textbook
 [プログラミングコンテスト攻略のためのアルゴリズムとデータ構造](https://book.mynavi.jp/ec/products/detail/id=35408)
