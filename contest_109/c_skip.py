@@ -1,4 +1,5 @@
 # Wrong answer
+# Learn Euclidean Algorithm!
 N, X = map(int, input().split())
 x_list = list(map(int, input().split()))
 x_list.append(X)
