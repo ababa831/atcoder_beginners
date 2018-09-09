@@ -1,4 +1,6 @@
-# Accepted, But long thinking
+# Accepted, But a fucking code.
+# The coordinate of Tower B is trivial: t_b = b - a
+# You can calc the hight of B and then solve Snow hight: s_b = h_b - b
 a, b = map(int, input().split())
 
 for t_a in range(1, 1000):
