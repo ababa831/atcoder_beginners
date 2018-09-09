@@ -1,5 +1,5 @@
 # Wrong Answer:
-# Some cases were wrong, but I could not detect wrong ones.
+# Some cases were wrong, but I could not detect them.
 d, n = map(int, input().split())
 print((100**d) * n)
 
