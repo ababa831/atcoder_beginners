@@ -28,11 +28,11 @@ Ansewers are in [first_trial](https://github.com/ababa893/atcoder_beginners/tree
     - [c_skip](https://github.com/ababa893/atcoder_beginners/blob/master/contest_109/c_skip.py)
 - [ABC108](https://beta.atcoder.jp/contests/abc108)
     - First trial
-        - [a_pair](https://github.com/ababa893/atcoder_beginners/blob/master/contest_109/a_pair.py)
-        - [b_ruined_square](https://github.com/ababa893/atcoder_beginners/blob/master/contest_109/b_ruined_square.py)
-        - [c_triangular_relationship](https://github.com/ababa893/atcoder_beginners/blob/master/contest_109/c_triangular_relationship.py) 
+        - [a_pair](https://github.com/ababa893/atcoder_beginners/blob/master/contest_108/a_pair.py)
+        - [b_ruined_square](https://github.com/ababa893/atcoder_beginners/blob/master/contest_108/b_ruined_square.py)
+        - [c_triangular_relationship](https://github.com/ababa893/atcoder_beginners/blob/master/contest_108/c_triangular_relationship.py) 
     - Second trial
-        - [b_ruined_square](https://github.com/ababa893/atcoder_beginners/blob/master/contest_109/b_ruined_square_2nd.py)
+        - [b_ruined_square](https://github.com/ababa893/atcoder_beginners/blob/master/contest_108/b_ruined_square_2nd.py)
 - [ABC107](https://beta.atcoder.jp/contests/abc107)
     - First trial
         - [a_train](https://github.com/ababa893/atcoder_beginners/blob/master/contest_107/a_train.py)
