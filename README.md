@@ -66,6 +66,8 @@ Ansewers are in [first_trial](https://github.com/ababa893/atcoder_beginners/tree
     - [b_cut_and_count](https://github.com/ababa893/atcoder_beginners/blob/master/contest_098/b_cut_and_count.py)
 - [ABC097](https://beta.atcoder.jp/contests/abc097)
     - [b_exponential](https://github.com/ababa893/atcoder_beginners/blob/master/contest_097/b_exponential.py)
+- [ABC096](https://beta.atcoder.jp/contests/abc096)
+    - [b_maximum_sum](https://github.com/ababa893/atcoder_beginners/blob/master/contest_096/b_maximum_sum.py)
 
 ## Textbook
 [プログラミングコンテスト攻略のためのアルゴリズムとデータ構造](https://book.mynavi.jp/ec/products/detail/id=35408)
