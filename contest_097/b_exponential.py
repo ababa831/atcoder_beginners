@@ -1,3 +1,4 @@
+# Accepted
 x = int(input())
 
 max_result = 0
