@@ -1,3 +1,4 @@
+# Accepted
 n, x = map(int, input().split())
 m_list = list(map(int, [input() for _ in range(n)]))
 
