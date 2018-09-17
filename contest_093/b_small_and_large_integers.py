@@ -20,6 +20,7 @@ for out_val in out_list:
     if a <= out_val <= b:
         print(out_val)
 """
+
 # TODO: Examine which codes is faster.
 # 1. Using list comprehension
 # (I want to know if the sum of the two lists
