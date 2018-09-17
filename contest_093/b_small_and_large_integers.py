@@ -22,7 +22,7 @@ for out_val in out_list:
 """
 
 # TODO: Examine which codes is faster.
-# 1. Using list comprehension
+# 1. Use list comprehension
 # (I want to know if the sum of the two lists
 # as shown in below takes computation time.)
 """
