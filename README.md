@@ -76,7 +76,7 @@ Ansewers are in [first_trial](https://github.com/ababa893/atcoder_beginners/tree
     - First trial
         - [b_small_and_large_integers](https://github.com/ababa893/atcoder_beginners/blob/master/contest_093/b_small_and_large_integers.py)
     - Second trial
-        - [b_small_and_large_integers]()
+        - [b_small_and_large_integers](https://github.com/ababa893/atcoder_beginners/blob/master/contest_093/b_small_and_large_integers_2nd.py)
 - [ABC092](https://beta.atcoder.jp/contests/abc092)
     - [b_chocolate](https://github.com/ababa893/atcoder_beginners/blob/master/contest_092/b_chocolate.py)
 
