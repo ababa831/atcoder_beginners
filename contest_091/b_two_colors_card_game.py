@@ -10,4 +10,4 @@ for canditate in canditates:
     tmp_profit = s_list.count(canditate) - t_list.count(canditate)
     if tmp_profit > max_profit:
         max_profit = tmp_profit   
-print(max(max_profit, 0))  # out_put > 0
+print(max(max_profit, 0))  # output > 0
