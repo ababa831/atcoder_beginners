@@ -79,8 +79,13 @@ Ansewers are in [first_trial](https://github.com/ababa893/atcoder_beginners/tree
         - [b_small_and_large_integers](https://github.com/ababa893/atcoder_beginners/blob/master/contest_093/b_small_and_large_integers_2nd.py)
 - [ABC092](https://beta.atcoder.jp/contests/abc092)
     - [b_chocolate](https://github.com/ababa893/atcoder_beginners/blob/master/contest_092/b_chocolate.py)
-- [ABC091]()
+- [ABC091](https://beta.atcoder.jp/contests/abc091)
     - [b_two_colors_card_game](https://github.com/ababa893/atcoder_beginners/blob/master/contest_091/b_two_colors_card_game.py)
+
+### [Codefes 2018 qual A](https://code-festival-2018-quala.contest.atcoder.jp/)
+- [a_haiten](https://github.com/ababa893/atcoder_beginners/blob/master/codefes_2018_qual_a/a_haiten.py)
+- [b_mikan](https://github.com/ababa893/atcoder_beginners/blob/master/codefes_2018_qual_a/b_mikan.py)
+
 
 ## Textbook
 [プログラミングコンテスト攻略のためのアルゴリズムとデータ構造](https://book.mynavi.jp/ec/products/detail/id=35408)
