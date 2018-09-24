@@ -1,3 +1,4 @@
+# Accepted
 N, M, X, Y = map(int, input().split())
 x_list = list(map(int, input().split()))
 y_list = list(map(int, input().split()))
