@@ -35,7 +35,7 @@ for <10000 or 1 digits value> in range(10):
         for <100 digit value> in range(10):
             ...
 
-Therefore, Complexity of the algorithm is 3/5 of the former one.
+Therefore, Complexity of the algorithm is about 1/100 of the former one.
 """
 """
 a, b = map(int, input().split())
