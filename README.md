@@ -85,6 +85,8 @@ Ansewers are in [first_trial](https://github.com/ababa893/atcoder_beginners/tree
     - [b_two_colors_card_game](https://github.com/ababa893/atcoder_beginners/blob/master/contest_091/b_two_colors_card_game.py)
 - [ABC090](https://beta.atcoder.jp/contests/abc090)
     - [b_palindromic_numbers](https://github.com/ababa893/atcoder_beginners/blob/master/contest_090/b_palindromic_numbers.py)
+- [ABC089](https://beta.atcoder.jp/contests/abc090)
+    - [b_hina_arare](https://github.com/ababa893/atcoder_beginners/blob/master/contest_089/b_hina_arare.py)
 
 ### [Codefes 2018 qual A](https://code-festival-2018-quala.contest.atcoder.jp/)
 - [a_haiten](https://github.com/ababa893/atcoder_beginners/blob/master/codefes_2018_qual_a/a_haiten.py)
