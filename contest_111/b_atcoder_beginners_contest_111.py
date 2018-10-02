@@ -14,7 +14,7 @@ for i in range(len(canditates) - 1):
         exit()
 
 
-# Another example (Shorter code)
+# Another example (a shorter code)
 """
 n = int(input())
 if n % 111 == 0:
