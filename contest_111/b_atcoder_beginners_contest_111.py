@@ -13,6 +13,7 @@ for i in range(len(canditates) - 1):
         print(canditates[i + 1])
         exit()
 
+
 # Another example (Shorter code)
 """
 n = int(input())
