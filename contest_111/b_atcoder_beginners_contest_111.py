@@ -1,4 +1,4 @@
-# Accepted, but shitty codes
+# Accepted, but a shitty code
 n = int(input())
 
 canditates = [111, 222, 333, 444, 555, 666, 777, 888, 999]
