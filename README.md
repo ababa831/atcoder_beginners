@@ -95,6 +95,8 @@ Ansewers are in [first_trial](https://github.com/ababa893/atcoder_beginners/tree
     - [b_coins](https://github.com/ababa893/atcoder_beginners/blob/master/contest_087/b_coins.py)
 - [ABC086](https://beta.atcoder.jp/contests/abc086)
     - [b_1_21](https://github.com/ababa893/atcoder_beginners/blob/master/contest_086/b_1_21.py)
+- [ABC085](https://beta.atcoder.jp/contests/abc085)
+    - [b_kagami_mochi](https://github.com/ababa893/atcoder_beginners/blob/master/contest_085/b_kagami_mochi.py)
 
 ### [Codefes 2018 qual A](https://code-festival-2018-quala.contest.atcoder.jp/)
 - [a_haiten](https://github.com/ababa893/atcoder_beginners/blob/master/codefes_2018_qual_a/a_haiten.py)
