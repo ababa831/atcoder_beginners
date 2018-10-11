@@ -119,7 +119,7 @@ Ansewers are in [first_trial](https://github.com/ababa893/atcoder_beginners/tree
 - Chap. 2
     - 2.2 Top 3
     - 2.3 Top N
-    - 2.5 ALDS1_1_D: Maximum Profit
+    - 2.5 [ALDS1_1_D: Maximum Profit](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_1_D&lang=jp)
 - Chap. 3
     - Passed
 - Chap. 4
