@@ -106,6 +106,8 @@ Ansewers are in [first_trial](https://github.com/ababa893/atcoder_beginners/tree
     - [b_some_sums](https://github.com/ababa893/atcoder_beginners/blob/master/contest_083/b_some_sums.py)
 - [ABC082](https://beta.atcoder.jp/contests/abc082)
     - [b_two_anagrams](https://github.com/ababa893/atcoder_beginners/blob/master/contest_082/b_two_anagrams.py)
+- [ABC081](https://beta.atcoder.jp/contests/abc081)
+    - [b_shift_only](https://github.com/ababa893/atcoder_beginners/blob/master/contest_081/b_shift_only.py)
 
 ### [Codefes 2018 qual A](https://code-festival-2018-quala.contest.atcoder.jp/)
 - [a_haiten](https://github.com/ababa893/atcoder_beginners/blob/master/codefes_2018_qual_a/a_haiten.py)
