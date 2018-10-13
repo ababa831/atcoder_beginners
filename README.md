@@ -114,6 +114,7 @@ Ansewers are in [first_trial](https://github.com/ababa893/atcoder_beginners/tree
 - [AGC028](https://beta.atcoder.jp/contests/agc028/)
     - [a_two_abbreviations](https://github.com/ababa893/atcoder_beginners/blob/master/agc_028/a_two_abbreviations.py)
 
+
 ### [Codefes 2018 qual A](https://code-festival-2018-quala.contest.atcoder.jp/)
 - [a_haiten](https://github.com/ababa893/atcoder_beginners/blob/master/codefes_2018_qual_a/a_haiten.py)
 - [b_mikan](https://github.com/ababa893/atcoder_beginners/blob/master/codefes_2018_qual_a/b_mikan.py)
