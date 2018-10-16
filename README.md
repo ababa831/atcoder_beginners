@@ -111,6 +111,8 @@ Ansewers are in [first_trial](https://github.com/ababa893/atcoder_beginners/tree
     - [b_shift_only](https://github.com/ababa893/atcoder_beginners/blob/master/contest_081/b_shift_only.py)
 - [ABC080](https://beta.atcoder.jp/contests/abc080)
     - [b_harshad_number](https://github.com/ababa893/atcoder_beginners/tree/master/contest_080)
+- [ABC079](https://beta.atcoder.jp/contests/abc079)
+    - [b_lucas_number](https://github.com/ababa893/atcoder_beginners/blob/master/contest_079/b_lucas_number.py)
 
 
 ### Past problems of AtCoder Grand Contest
