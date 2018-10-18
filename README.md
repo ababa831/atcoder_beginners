@@ -113,6 +113,8 @@ Ansewers are in [first_trial](https://github.com/ababa893/atcoder_beginners/tree
     - [b_harshad_number](https://github.com/ababa893/atcoder_beginners/tree/master/contest_080)
 - [ABC079](https://beta.atcoder.jp/contests/abc079)
     - [b_lucas_number](https://github.com/ababa893/atcoder_beginners/blob/master/contest_079/b_lucas_number.py)
+- [ABC078](https://beta.atcoder.jp/contests/abc078)
+    - [b_isu](https://github.com/ababa893/atcoder_beginners/blob/master/contest_078/b_isu.py)
 
 
 ### Past problems of AtCoder Grand Contest
