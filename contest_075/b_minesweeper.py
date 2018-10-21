@@ -2,15 +2,15 @@
 h, w = map(int, input().split())
 # Setting
 mine_set = set()
-next_to_grid_list = [(1, 0), (1, -1), (0, -1), (-1, -1), 
+next_to_dot_list = [(1, 0), (1, -1), (0, -1), (-1, -1), 
                      (-1, 0), (-1, 1), (0, 1), (1, 1)]
 
 
 def add_number_for_dot(mine):
-    for next_to_grid in next_to_grid_list:
-        if is_constrained(mine[0] + next_to_grid[0], mine[1] + next_to_grid[1]):
-            if type(grids[mine[0] + next_to_grid[0]][mine[1] + next_to_grid[1]]) is int:
-                grids[mine[0] + next_to_grid[0]][mine[1] + next_to_grid[1]] += 1
+    for next_to_dot in next_to_dot_list:
+        if is_constrained(mine[0] + next_to_dot[0], mine[1] + next_to_dot[1]):
+            if type(grids[mine[0] + next_to_dot[0]][mine[1] + next_to_dot[1]]) is int:
+                grids[mine[0] + next_to_dot[0]][mine[1] + next_to_dot[1]] += 1
 
 
 def is_constrained(i, j):
