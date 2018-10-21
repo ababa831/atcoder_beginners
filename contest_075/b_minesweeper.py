@@ -30,7 +30,7 @@ for i in range(h):
         else:
             grids[i][j] = 0
 
-# add number to "."
+# add number for "."
 for mine in mine_set:
     add_number_for_dot(mine)
 
