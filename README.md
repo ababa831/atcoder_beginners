@@ -119,6 +119,8 @@ Ansewers are in [first_trial](https://github.com/ababa893/atcoder_beginners/tree
     - [b_around_square](https://github.com/ababa893/atcoder_beginners/blob/master/contest_077/b_around_square.py)
 - [ABC076](https://beta.atcoder.jp/contests/abc076)
     - [b_addition_and_multiplication](https://github.com/ababa893/atcoder_beginners/blob/master/contest_076/b_addition_and_multiplication.py)
+- [ABC075](https://beta.atcoder.jp/contests/abc075)
+    - [b_minesweeper](https://github.com/ababa893/atcoder_beginners/blob/master/contest_075/b_minesweeper.py)
 
 ### Past problems of AtCoder Grand Contest
 - [AGC028](https://beta.atcoder.jp/contests/agc028/)
