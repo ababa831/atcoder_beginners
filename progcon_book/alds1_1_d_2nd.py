@@ -1,4 +1,4 @@
-# Accepted
+# Accepted, O(n)
 n = int(input())
 r_list = list(map(int, [input() for _ in range(n)]))
 
