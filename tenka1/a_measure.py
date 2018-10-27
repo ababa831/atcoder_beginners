@@ -1,3 +1,4 @@
+# Accepted
 s = input()
 s_len = len(s)
 

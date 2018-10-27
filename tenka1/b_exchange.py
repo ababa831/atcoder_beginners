@@ -1,3 +1,4 @@
+# Accepted
 a, b, k = map(int, input().split())
 
 n_takahashi = a
