@@ -132,6 +132,11 @@ Ansewers are in [first_trial](https://github.com/ababa893/atcoder_beginners/tree
 - [b_mikan](https://github.com/ababa893/atcoder_beginners/blob/master/codefes_2018_qual_a/b_mikan.py)
 
 
+### [Tenka1 Programmer Beginner Contest](https://tenka1-2018-beginner.contest.atcoder.jp/)
+- [a_measure](https://github.com/ababa893/atcoder_beginners/blob/master/tenka1/a_measure.py)
+- [b_exchange](https://github.com/ababa893/atcoder_beginners/blob/master/tenka1/b_exchange.py)
+- [c_align](https://github.com/ababa893/atcoder_beginners/blob/master/tenka1/c_align.py)
+
 ## Textbook
 [プログラミングコンテスト攻略のためのアルゴリズムとデータ構造](https://book.mynavi.jp/ec/products/detail/id=35408)
 
