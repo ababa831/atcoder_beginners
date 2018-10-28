@@ -122,6 +122,7 @@ Ansewers are in [first_trial](https://github.com/ababa893/atcoder_beginners/tree
 - [ABC075](https://beta.atcoder.jp/contests/abc075)
     - [b_minesweeper](https://github.com/ababa893/atcoder_beginners/blob/master/contest_075/b_minesweeper.py)
 
+
 ### Past problems of AtCoder Grand Contest
 - [AGC028](https://beta.atcoder.jp/contests/agc028/)
     - [a_two_abbreviations](https://github.com/ababa893/atcoder_beginners/blob/master/agc_028/a_two_abbreviations.py)
