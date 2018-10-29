@@ -157,9 +157,9 @@ Ansewers are in [first_trial](https://github.com/ababa893/atcoder_beginners/tree
 
 **Note**
 
-~~Problems related to sort algorithms (in Chap. 3) are skipped, because you don't need to code them by full scratch thanks to `sorted()` function in Python standard modules.
+~Problems related to sort algorithms (in Chap. 3) are skipped, because you don't need to code them by full scratch thanks to `sorted()` function in Python standard modules.
 
-(If you have enough free time, you should learn them)~~
+(If you have enough free time, you should learn them)~
 
 ## Additional problems
 - [A string reversing problem](https://qiita.com/imadedede/items/055fa0c4eac7e0a07cf1) in Python 
