@@ -1,7 +1,4 @@
 # Accepted
-import copy
-
-
 # O(N^2) algorithm
 def insertation_sort(a, n):
     # print initial order
