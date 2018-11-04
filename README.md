@@ -158,8 +158,7 @@ Ansewers are in [first_trial](https://github.com/ababa893/atcoder_beginners/tree
     - 4.3 ALDS1_3_B Queue
     - 4.4 [ALDS1_3_C Doubly Linked List](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_3_C&lang=jp)
 
-**Note**
-
+**Note**<br>
 ~~Problems related to sort algorithms (in Chap. 3) are skipped, because you don't need to code them by full scratch thanks to `sorted()` function in Python standard modules.~~
 
 ~~(If you have enough free time, you should learn them)~~
