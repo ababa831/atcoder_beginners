@@ -24,8 +24,8 @@ Ansewers are in [first_trial](https://github.com/ababa893/atcoder_beginners/tree
 
 ### Past problems of AtCoder Beginners Contest
 - [ABC113](https://beta.atcoder.jp/contests/abc113)
-    - [a](https://github.com/ababa893/atcoder_beginners/blob/master/contest_113/a.py)
-    - [b](https://github.com/ababa893/atcoder_beginners/blob/master/contest_113/b.py)
+    - [a_discount_fare](https://github.com/ababa893/atcoder_beginners/blob/master/contest_113/a_discount_fare.py)
+    - [b_palace](https://github.com/ababa893/atcoder_beginners/blob/master/contest_113/b_palace.py)
 - [ABC112](https://beta.atcoder.jp/contests/abc112)
     - [a_programming_education](https://github.com/ababa893/atcoder_beginners/blob/master/contest_112/a_programming_education.py)
     - [b_time_limit_exceeded](https://github.com/ababa893/atcoder_beginners/blob/master/contest_112/b_time_limit_exceeded.py)
