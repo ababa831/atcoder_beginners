@@ -1,16 +1,15 @@
-# WA? 
+# Accepted
 def selection_sort(a, n):
     num_exchange = 0
-    for i, val in enumerate(a):
-        # Get a argmin idx
-        min_val = min(a[i:])
-        min_idx = a.index(min_val)
-        if val > min_val:
-            # Exchange values for two indexes(min_idx, i)
-            tmp_val = val
-            a[i] = a[min_idx]
-            a[min_idx] = tmp_val
-            # Calculate the number of exchanges
+    for i in range(n - 1):
+        min_j = i
+        for j in range(i, n):
+            if a[j] < a[min_j]:
+                min_j = j
+        tmp = a[i]
+        a[i] = a[min_j]
+        a[min_j] = tmp
+        if i != min_j:
             num_exchange += 1
     return a, num_exchange
 
