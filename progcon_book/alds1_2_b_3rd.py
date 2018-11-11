@@ -1,6 +1,6 @@
 # WA (Test case 4)
-# The output seems to be a correct answer but scored as wrong.
-# I do not know where I made a mistake.
+# The output seems to be a correct answer but scored as wrong
+# I do not know where I made a mistake
 def selection_sort(a, n):
     num_swap = 0
     a_len = len(a)
