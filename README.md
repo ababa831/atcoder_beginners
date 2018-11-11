@@ -142,6 +142,7 @@ Ansewers are in [first_trial](https://github.com/ababa893/atcoder_beginners/tree
 [プログラミングコンテスト攻略のためのアルゴリズムとデータ構造](https://book.mynavi.jp/ec/products/detail/id=35408)
 
 ### Example problems
+
 - Chap. 2
     - 2.2 Top 3
     - 2.3 Top N
