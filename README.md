@@ -162,7 +162,7 @@ Ansewers are in [first_trial](https://github.com/ababa893/atcoder_beginners/tree
         - [1st trial](https://github.com/ababa893/atcoder_beginners/blob/master/progcon_book/alds1_2_c.py)
         - [2nd trial](https://github.com/ababa893/atcoder_beginners/blob/master/progcon_book/alds1_2_c_2nd.py)
     - 3.6 [ALDS1_2_D: Shell Sort](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_2_D&lang=jp)
-        - Skipped
+        - Skipped.
 - Chap. 4
     - 4.2 ALDS1_3_A: Stack (reverse Polish notation)
     - 4.3 ALDS1_3_B Queue
