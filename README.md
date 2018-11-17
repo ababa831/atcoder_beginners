@@ -160,6 +160,7 @@ Ansewers are in [first_trial](https://github.com/ababa893/atcoder_beginners/tree
         - [3rd trial](https://github.com/ababa893/atcoder_beginners/blob/master/progcon_book/alds1_2_b_3rd.py)
     - 3.5 [ALDS1_2_C: Stable Sort](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_2_C&lang=jp)
         - [1st trial](https://github.com/ababa893/atcoder_beginners/blob/master/progcon_book/alds1_2_c.py)
+        - [2nd trial](https://github.com/ababa893/atcoder_beginners/blob/master/progcon_book/alds1_2_c_2nd.py)
 - Chap. 4
     - 4.2 ALDS1_3_A: Stack (reverse Polish notation)
     - 4.3 ALDS1_3_B Queue
