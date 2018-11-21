@@ -1,15 +1,19 @@
-# WA
-# Ref: https://qiita.com/ymr-39/items/257e8b9b49d891137d56
-# Is this really a insertation sort algorithm ?
+# Accepted
+# Ref: http://interactivepython.org/courselib/static/pythonds/SortSearch/TheInsertionSort.html
 def insertation_sort(a, n):
+    print(' '.join(a))
     for i in range(1, n):
-        for j in range(i, 0, -1):
-            if a[j] >= a[j - 1]:
-                break
-            else:
-                a[j], a[j - 1] = a[j - 1], a[j]
-                print(' '.join(a))
-    return a
+        # Temporary memorize the current value
+        # because the value vanishes if shiftings (a[i] = a[i-1]) is executed.
+        current_val = a[i]
+        # Search the destination of the value
+        position = i
+        while position > 0 and a[position - 1] > current_val:
+            a[position] = a[position - 1]
+            position -= 1
+        # Insert the current value to the destination
+        a[position] = current_val
+        print(' '.join(a))
 
 
 def main():
