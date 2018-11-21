@@ -1,10 +1,9 @@
 # Accepted
 # Ref: http://interactivepython.org/courselib/static/pythonds/SortSearch/TheInsertionSort.html
 def insertation_sort(a, n):
-    print(' '.join(a))
     for i in range(1, n):
         # Temporary memorize the current value
-        # because the value vanishes if shiftings (a[i] = a[i-1]) is executed.
+        # because the value vanishes if shiftings (a[i] = a[i-1]) are executed.
         current_val = a[i]
         # Search the destination of the value
         position = i
