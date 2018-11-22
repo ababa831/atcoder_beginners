@@ -151,6 +151,7 @@ Ansewers are in [first_trial](https://github.com/ababa893/atcoder_beginners/tree
 - Chap. 3
     - 3.2 [ALDS1_1_A: Insertation Sort](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_1_A&lang=jp)
         - [1st trial](https://github.com/ababa893/atcoder_beginners/blob/master/progcon_book/alds1_1_a.py)
+        - [4th trial](https://github.com/ababa893/atcoder_beginners/blob/master/progcon_book/alds1_1_a_4th.py)
     - 3.3 [ALDS1_2_A: Bubble Sort](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_2_A&lang=jp)
         - [1st trial](https://github.com/ababa893/atcoder_beginners/blob/master/progcon_book/alds1_2_a.py)
         - [2nd trial](https://github.com/ababa893/atcoder_beginners/blob/master/progcon_book/alds1_2_a_2nd.py)
