@@ -1,6 +1,8 @@
 # In progress:
 # 1 2 + 3 4 - * -> 3 (-3 is the correct answer)
 # Something wrong
+
+
 class Stack(object):
     def __init__(self, stack_size):
         self.stack_size = stack_size
