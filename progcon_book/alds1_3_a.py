@@ -1,6 +1,4 @@
-# In progress:
-# 1 2 + 3 4 - * -> 3 (-3 is the correct answer)
-# Something wrong
+# Accepted
 
 
 class Stack(object):
@@ -42,11 +40,11 @@ def calc(val_1, val_2, operator):
     answer = None
     val_1, val_2 = map(int, [val_1, val_2])
     if operator == '+':
-        answer = val_1 + val_2
+        answer = val_2 + val_1
     elif operator == '-':
-        answer = val_1 - val_2
+        answer = val_2 - val_1
     else:
-        answer = val_1 * val_2
+        answer = val_2 * val_1
     return str(answer)
 
 
@@ -64,7 +62,6 @@ def main():
             val_1 = stack.pop()
             val_2 = stack.pop()
             mid_answer = calc(val_1, val_2, elem)
-            print(mid_answer)
             stack.push(mid_answer)
     # Output
     answer = stack.pop()
