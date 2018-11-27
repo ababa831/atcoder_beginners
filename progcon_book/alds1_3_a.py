@@ -37,6 +37,7 @@ class Stack(object):
 
 
 def calc(val_1, val_2, operator):
+    # Be aware of the order of the two values
     answer = None
     val_1, val_2 = map(int, [val_1, val_2])
     if operator == '+':
