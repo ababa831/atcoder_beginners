@@ -1,22 +1,43 @@
 # In progress
 class Queue(object):
     def __init__(self, queue_size):
-        self.size = queue_size
-        self.Q = [None for _ in range(queue_size)]
-        self.head = None
-        self.tail = None
-    
-    def enqueue(self, x):
-        self.Q.append(x)
-        if self.tail is not None:
-            self.tail += 1
-        else:
-            self.head = 0
-            self.tail = self.head + 1
+        self.queue_size = queue_size
+        self.Q = [None for _ in range(self.queue_size)]
+        self.head = 0
+        self.tail = 0
 
+    def is_empty(self):
+        # An example of fucking codes.
+        """
+        if self.head == self.tail:
+            return True
+        else:
+            return False
+        """
+        return self.head == self.tail
+    
+    def is_full(self):
+        return self.head == (self.tail+1) % self.queue_size
+
+    def enqueue(self, x):
+        if self.is_full() is False:
+            self.Q[self.head] == x
+            if self.head + 1 == self.queue_size:
+                self.head = 0
+            else:
+                self.head += 1
+        
     def dequeue(self):
-        self.Q.pop(self.head)
-        self.head += 1
+        if self.is_empty() is False:
+            x = self.Q[self.tail]
+            if self.tail + 1 == self.queue_size:
+                self.tail = 0
+            else:
+                self.tail += 1
+            return x
+        else:
+            return None
+
 
 if __name__ == "__main__":
     # Input
