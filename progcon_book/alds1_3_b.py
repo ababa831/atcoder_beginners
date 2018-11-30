@@ -38,12 +38,12 @@ if __name__ == "__main__":
         tmp_t, tmp_p = t_queue.dequeue(), p_queue.dequeue()
         tmp_lefttime = tmp_t - q
         if tmp_lefttime <= 0:
-            # 処理が終わった場合
+            # If the process was done
             elapsed_time += tmp_t
             print(tmp_p, elapsed_time)
             n_finished += 1
         else:
-            # 処理が残っている場合
+            # If the process was not finished
             elapsed_time += q
             t_queue.enqueue(tmp_lefttime)
             p_queue.enqueue(tmp_p)
