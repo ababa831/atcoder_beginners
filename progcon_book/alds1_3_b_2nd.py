@@ -17,7 +17,18 @@ class Queue(object):
         return x
 
 def main():
-    # TODO: Write a code of round-robin scheduling 
+    # TODO: Write a code of round-robin scheduling
+    # Input 
+    n, q = map(int, input().split())
+    # To queue
+    p_queue = Queue(n)
+    t_queue = Queue(n)
+    for _ in range(n):
+        name, time = input().split()
+        time = int(time)
+        p_queue.enqueue(name)
+        t_queue.enqueue(time)
+
 
 if __name__ == '__main__':
     main()
