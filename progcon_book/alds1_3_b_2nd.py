@@ -18,7 +18,6 @@ class Queue(object):
 
 
 def main():
-    # TODO: Write a code of round-robin scheduling
     # Input
     n, q = map(int, input().split())
     # Enqueue all data
