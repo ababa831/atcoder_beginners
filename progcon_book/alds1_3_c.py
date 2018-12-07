@@ -3,6 +3,8 @@
 # Make two roles for the list:
 # - Structure of a node of doubly linked list
 # - Linkage of the nodes
+#   - next = prev = new node (if prev == none)
+#   - next = new node and new_node.prev = next?
 
 
 class Node(object):
