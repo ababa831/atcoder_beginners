@@ -15,7 +15,7 @@ burger_size = get_burger_size(n)
 if x > int(burger_size/2):
     harf_p_count = get_harf_pcount(n)
     if x <= burger_size - 2:
-        pcount = harf_p_count + x - len(burger_size/2) - 1
+        pcount = harf_p_count + x - int(burger_size/2) - 1
     else:
-        pcount = harf_p_count + burger_size - 2 - len(burger_size/2) - 1
+        pcount = harf_p_count + burger_size - 2 - int(burger_size/2) - 1
 print(pcount)
