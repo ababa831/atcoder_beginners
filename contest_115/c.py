@@ -13,4 +13,5 @@ for i in range(n - k + 1):
     if min_diff == 0:
         print(0)
         exit()
+
 print(min_diff)
