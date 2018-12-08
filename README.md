@@ -23,12 +23,12 @@ I will irregularly upload submitted codes of the AtCoder Beginners Contest and a
 Ansewers are in [first_trial](https://github.com/ababa893/atcoder_beginners/tree/master/first_trial) directory, [second_trial.py](https://github.com/ababa893/atcoder_beginners/blob/master/second_trial.py) and [third_trial.py](https://github.com/ababa893/atcoder_beginners/blob/master/third_trial.py).
 
 ### Past problems of AtCoder Beginners Contest
-- [ABC115]
+- [ABC115](https://beta.atcoder.jp/contests/abc115)
     - [a](https://github.com/ababa893/atcoder_beginners/blob/master/contest_115/a.py)
     - [b](https://github.com/ababa893/atcoder_beginners/blob/master/contest_115/b.py)
     - [c](https://github.com/ababa893/atcoder_beginners/blob/master/contest_115/c.py)
     - [d](https://github.com/ababa893/atcoder_beginners/blob/master/contest_115/d.py)
-- [ABC114]
+- [ABC114](https://beta.atcoder.jp/contests/abc114)
     - Passed
 - [ABC113](https://beta.atcoder.jp/contests/abc113)
     - [a_discount_fare](https://github.com/ababa893/atcoder_beginners/blob/master/contest_113/a_discount_fare.py)
