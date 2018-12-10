@@ -20,7 +20,6 @@ class DoublyLinkedList(object):
             new_node = Node(key=x, prev=prev_node.next)
             prev_node.next = new_node.prev
             
-
     def delete(self):
         pass
 
