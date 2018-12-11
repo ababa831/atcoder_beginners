@@ -21,7 +21,7 @@ class DoublyLinkedList(object):
 
     def insert(self, x):
         """Add a node which has `val=x` 
-        key to the last of a Linked List
+        key to the last of the Linked List
         """
         self.state.next = Node(key=x)
         self.state.next.prev = self.state
