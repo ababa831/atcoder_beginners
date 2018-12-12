@@ -178,6 +178,7 @@ Ansewers are in [first_trial](https://github.com/ababa893/atcoder_beginners/tree
         - [1st trial](https://github.com/ababa893/atcoder_beginners/blob/master/progcon_book/alds1_3_b.py)
         - [2nd trial](https://github.com/ababa893/atcoder_beginners/blob/master/progcon_book/alds1_3_b_2nd.py)
     - 4.4 [ALDS1_3_C Doubly Linked List](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_3_C&lang=jp)
+        - [1st trial](https://github.com/ababa893/atcoder_beginners/blob/master/progcon_book/alds1_3_c.py)
 
 
 **Note**<br>
