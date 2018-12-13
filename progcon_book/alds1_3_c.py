@@ -64,4 +64,4 @@ class DoublyLinkedList(object):
             if target_node.next is None:
                 target_node.prev.next = None
             # Increment the next node
-            target_node = target_node.next            
+            target_node = target_node.next
