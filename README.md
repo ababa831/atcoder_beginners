@@ -133,6 +133,9 @@ Ansewers are in [first_trial](https://github.com/ababa893/atcoder_beginners/tree
     - [b_minesweeper](https://github.com/ababa893/atcoder_beginners/blob/master/contest_075/b_minesweeper.py)
 
 ### Past problems of AtCoder Grand Contest
+- [AGC029](https://beta.atcoder.jp/contests/agc029)
+  - [a](https://github.com/ababa893/atcoder_beginners/blob/master/agc_029/a.py)
+  - [b](https://github.com/ababa893/atcoder_beginners/blob/master/agc_029/b.py)
 - [AGC028](https://beta.atcoder.jp/contests/agc028/)
     - [a_two_abbreviations](https://github.com/ababa893/atcoder_beginners/blob/master/agc_028/a_two_abbreviations.py)
 
