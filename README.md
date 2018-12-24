@@ -132,6 +132,10 @@ Ansewers are in [first_trial](https://github.com/ababa893/atcoder_beginners/tree
 - [ABC075](https://beta.atcoder.jp/contests/abc075)
     - [b_minesweeper](https://github.com/ababa893/atcoder_beginners/blob/master/contest_075/b_minesweeper.py)
 
+## [CADDi 2018 for Beginners](https://atcoder.jp/contests/caddi2018b)
+- [a](https://github.com/ababa893/atcoder_beginners/blob/master/caddi/a.py)
+- [b](https://github.com/ababa893/atcoder_beginners/blob/master/caddi/b.py)
+- [c](https://github.com/ababa893/atcoder_beginners/blob/master/caddi/c.py)
 
 ### Past problems of AtCoder Grand Contest
 - [AGC029](https://beta.atcoder.jp/contests/agc029)
