@@ -133,7 +133,7 @@ Ansewers are in [first_trial](https://github.com/ababa893/atcoder_beginners/tree
     - [b_minesweeper](https://github.com/ababa893/atcoder_beginners/blob/master/contest_075/b_minesweeper.py)
 
 ## [CADDi 2018 for Beginners](https://atcoder.jp/contests/caddi2018b)
-- [a](https://github.com/ababa893/atcoder_beginners/blob/master/caddi/a.py)
+- [a 12/22](https://github.com/ababa893/atcoder_beginners/blob/master/caddi/a.py)
 - [b](https://github.com/ababa893/atcoder_beginners/blob/master/caddi/b.py)
 - [c](https://github.com/ababa893/atcoder_beginners/blob/master/caddi/c.py)
 
