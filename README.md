@@ -132,6 +132,7 @@ Ansewers are in [first_trial](https://github.com/ababa893/atcoder_beginners/tree
 - [ABC075](https://beta.atcoder.jp/contests/abc075)
     - [b_minesweeper](https://github.com/ababa893/atcoder_beginners/blob/master/contest_075/b_minesweeper.py)
 
+
 ## [CADDi 2018 for Beginners](https://atcoder.jp/contests/caddi2018b)
 - [a 12/22](https://github.com/ababa893/atcoder_beginners/blob/master/caddi/a.py)
 - [b](https://github.com/ababa893/atcoder_beginners/blob/master/caddi/b.py)
@@ -189,10 +190,6 @@ Ansewers are in [first_trial](https://github.com/ababa893/atcoder_beginners/tree
         - [1st trial](https://github.com/ababa893/atcoder_beginners/blob/master/progcon_book/alds1_3_c.py)
 
 
-**Note**<br>
-~~Problems related to sort algorithms (in Chap. 3) are skipped, because you don't need to code them by full scratch thanks to `sorted()` function in Python standard modules.~~
-
-~~(If you have enough free time, you should learn them)~~
 
 ## Additional problems
 - [A string reversing problem](https://qiita.com/imadedede/items/055fa0c4eac7e0a07cf1) in Python 
