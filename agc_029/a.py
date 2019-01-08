@@ -14,3 +14,4 @@ for i in range(n_white):
     last_w_idx = w_idx
  
 print(n_swap)
+
