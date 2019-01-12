@@ -23,6 +23,7 @@ I will irregularly upload submitted codes of the AtCoder Beginners Contest and a
 
 Ansewers are in [first_trial](https://github.com/ababa893/atcoder_beginners/tree/master/first_trial) directory, [second_trial.py](https://github.com/ababa893/atcoder_beginners/blob/master/second_trial.py) and [third_trial.py](https://github.com/ababa893/atcoder_beginners/blob/master/third_trial.py).
 
+
 ### Past problems of AtCoder Beginners Contest
 - [ABC115](https://beta.atcoder.jp/contests/abc115)
     - [a Christmas_Eve_Eve_Eve](https://github.com/ababa893/atcoder_beginners/blob/master/contest_115/a.py)
@@ -132,7 +133,6 @@ Ansewers are in [first_trial](https://github.com/ababa893/atcoder_beginners/tree
     - [b_addition_and_multiplication](https://github.com/ababa893/atcoder_beginners/blob/master/contest_076/b_addition_and_multiplication.py)
 - [ABC075](https://beta.atcoder.jp/contests/abc075)
     - [b_minesweeper](https://github.com/ababa893/atcoder_beginners/blob/master/contest_075/b_minesweeper.py)
-
 
 ## [CADDi 2018 for Beginners](https://atcoder.jp/contests/caddi2018b)
 - [a 12/22](https://github.com/ababa893/atcoder_beginners/blob/master/caddi/a.py)
