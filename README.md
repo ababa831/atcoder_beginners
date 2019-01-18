@@ -134,8 +134,8 @@ Ansewers are in [first_trial](https://github.com/ababa893/atcoder_beginners/tree
     - [b_minesweeper](https://github.com/ababa893/atcoder_beginners/blob/master/contest_075/b_minesweeper.py)
 
 ## [AISing Programming Contest 2019](https://aising2019.contest.atcoder.jp/)
-- [a Bulletin Board](https://github.com/ababa893/atcoder_beginners/blob/master/aising/a_bulletin_board.py)
-- [b](https://github.com/ababa893/atcoder_beginners/blob/master/aising/b.py)
+- [a_bulletin_board](https://github.com/ababa893/atcoder_beginners/blob/master/aising/a_bulletin_board.py)
+- [b_contests](https://github.com/ababa893/atcoder_beginners/blob/master/aising/b.py)
 - [c](https://github.com/ababa893/atcoder_beginners/blob/master/aising/c.py)
 
 ## [CADDi 2018 for Beginners](https://atcoder.jp/contests/caddi2018b)
