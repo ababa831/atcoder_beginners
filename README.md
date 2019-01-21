@@ -135,7 +135,7 @@ Ansewers are in [first_trial](https://github.com/ababa893/atcoder_beginners/tree
 ## [AISing Programming Contest 2019](https://aising2019.contest.atcoder.jp/)
 - [a_bulletin_board](https://github.com/ababa893/atcoder_beginners/blob/master/aising/a_bulletin_board.py)
 - [b_contests](https://github.com/ababa893/atcoder_beginners/blob/master/aising/b.py)
-- [c](https://github.com/ababa893/atcoder_beginners/blob/master/aising/c.py)
+- [c_alternating_path](https://github.com/ababa893/atcoder_beginners/blob/master/aising/alternating_path.py)
 
 ## [CADDi 2018 for Beginners](https://atcoder.jp/contests/caddi2018b)
 - [a 12/22](https://github.com/ababa893/atcoder_beginners/blob/master/caddi/a.py)
