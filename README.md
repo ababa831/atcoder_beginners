@@ -132,6 +132,7 @@ Ansewers are in [first_trial](https://github.com/ababa893/atcoder_beginners/tree
 - [ABC075](https://beta.atcoder.jp/contests/abc075)
     - [b_minesweeper](https://github.com/ababa893/atcoder_beginners/blob/master/contest_075/b_minesweeper.py)
 
+
 ## [AISing Programming Contest 2019](https://aising2019.contest.atcoder.jp/)
 - [a_bulletin_board](https://github.com/ababa893/atcoder_beginners/blob/master/aising/a_bulletin_board.py)
 - [b_contests](https://github.com/ababa893/atcoder_beginners/blob/master/aising/b_contests.py)
