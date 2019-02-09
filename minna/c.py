@@ -1,4 +1,4 @@
-# TLE
+# Not submitted (may be TLE)
 class BiscketYen(object):
     def __init__(self, k, a, b):
         self.biscket = 1

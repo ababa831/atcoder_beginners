@@ -1,4 +1,4 @@
-# TLE
+# Not submitted (may be TLE)
 # I should think low conv_ratio patterns
 class BiscketYen(object):
     def __init__(self, k, a, b):
