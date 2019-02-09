@@ -1,3 +1,4 @@
+# Accepted
 n, k = map(int, input().split())
 
 s = n % 2

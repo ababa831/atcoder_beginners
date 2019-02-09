@@ -1,3 +1,4 @@
+# Accepted
 # There are 3 paths, four cities
 a1, b1 = map(int, input().split())
 a2, b2 = map(int, input().split())
