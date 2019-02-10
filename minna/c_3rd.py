@@ -1,4 +1,4 @@
-# WA: Someting Wrong
+# WA: Someting Wrong (Too much memory)
 k, a, b = map(int, input().split())
 
 if b - a <= 1:
