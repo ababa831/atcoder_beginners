@@ -1,3 +1,4 @@
+# Accepted
 import math
 
 n = int(input())
