@@ -1,3 +1,4 @@
+# Accepted
 n, m = map(int, input().split())
 
 leftover = None

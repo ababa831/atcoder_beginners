@@ -1,3 +1,4 @@
+# Accepted
 from fractions import gcd 
 
 n = int(input())
