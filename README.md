@@ -29,7 +29,7 @@ Ansewers are in [first_trial](https://github.com/ababa893/atcoder_beginners/tree
 
 ### Past problems of AtCoder Beginners Contest
 - [ABC116]
-  - TODO: Upload codes 
+  - (None) 
 - [ABC115](https://beta.atcoder.jp/contests/abc115)
     - [a Christmas_Eve_Eve_Eve](https://github.com/ababa893/atcoder_beginners/blob/master/contest_115/a.py)
     - [b Christmas_Eve_Eve](https://github.com/ababa893/atcoder_beginners/blob/master/contest_115/b.py)
