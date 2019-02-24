@@ -67,7 +67,7 @@ while a+b+c != 0:
     
     for idx, target in enumerate([a, b, c]):
         if target != 0:
-            l_list = do_concat(target, l_list)
+            l_list = concat_magic(target, l_list)
             MP += 10
 
 print(MP)
