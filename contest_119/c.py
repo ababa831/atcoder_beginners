@@ -20,7 +20,7 @@ def do_concat(target, l_list):
         conc_min_diff, conc_at_min = update_min_and_argmin(target, cand_concat, concatted, conc_min_diff)
     arg_conc = concatted.index(conc_at_min)
     l_combi = canditates[arg_conc]
-    # Do concat
+    # Concat
     l_list.remove(l_combi[0])
     l_list.remove(l_combi[1])
     l_list.append(conc_at_min)
