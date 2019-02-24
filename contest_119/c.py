@@ -12,7 +12,7 @@ def update_min_and_argmin(target, l, l_list, tmp_min_diff):
         tmp_min_diff = diff
     return tmp_min_diff, l
 
-def do_concat(target, l_list): 
+def concat_magic(target, l_list): 
     canditates = list(combinations(l_list, 2))
     concatted = [sum(cand) for cand in canditates]
     conc_min_diff = 10000
