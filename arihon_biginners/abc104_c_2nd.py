@@ -9,6 +9,7 @@ for i in range(1 << D):
         # If all problems are solved
         if (i >> j) & 1:
             # WIP
+            tmp_score = j * 100 * problems[j][0] + problems[j][1]
             pass
         # If all problems are not solved
         else:
