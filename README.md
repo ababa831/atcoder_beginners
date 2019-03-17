@@ -31,7 +31,7 @@ Ansewers are in [first_trial](https://github.com/ababa893/atcoder_beginners/tree
 - [ABC121](https://atcoder.jp/contests/abc121)
   - [a White Cells](https://github.com/ababa893/atcoder_beginners/blob/master/contest_121/a.py)
   - [b Can you solve this?](https://github.com/ababa893/atcoder_beginners/blob/master/contest_121/b.py)
-  - [c](https://github.com/ababa893/atcoder_beginners/blob/master/contest_121/c.py)
+  - [c Energy Drink Collector](https://github.com/ababa893/atcoder_beginners/blob/master/contest_121/c.py)
   - [d](https://github.com/ababa893/atcoder_beginners/blob/master/contest_121/d.py)
 - [ABC116]
   - (None) 
