@@ -32,7 +32,7 @@ Ansewers are in [first_trial](https://github.com/ababa893/atcoder_beginners/tree
   - [a White Cells](https://github.com/ababa893/atcoder_beginners/blob/master/contest_121/a.py)
   - [b Can you solve this?](https://github.com/ababa893/atcoder_beginners/blob/master/contest_121/b.py)
   - [c Energy Drink Collector](https://github.com/ababa893/atcoder_beginners/blob/master/contest_121/c.py)
-  - [d](https://github.com/ababa893/atcoder_beginners/blob/master/contest_121/d.py)
+  - [d XOR World](https://github.com/ababa893/atcoder_beginners/blob/master/contest_121/d.py)
 - [ABC116]
   - (None) 
 - [ABC115](https://beta.atcoder.jp/contests/abc115)
