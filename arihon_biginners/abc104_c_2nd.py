@@ -2,6 +2,7 @@
 D, G = map(int, input().split())
 problems = [list(map(int, input().split())) for i in range(D)]
 
+
 # bit search (1,,,,D)
 # May be ascending
 min_num_solved_problems = 1000000
