@@ -21,3 +21,5 @@ for i in range(1 << D):
     else:
         # TODO: write codes of solving problems halfway
         pass
+
+print(num_solved_problems)
