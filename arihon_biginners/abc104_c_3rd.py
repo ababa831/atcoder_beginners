@@ -1,4 +1,4 @@
-# WA, something wrong with a04, a16 test cases
+# WA, something wrong when checked a04, a16
 import math
 
 D, G = map(int, input().split())
