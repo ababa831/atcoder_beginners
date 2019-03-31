@@ -1,11 +1,11 @@
-# WA, something wrong when checked a04, a16
+# WA, something wrong when checked a04, a16 
 import math
 
 D, G = map(int, input().split())
 p_c_list = [list(map(int, input().split())) for _ in range(D)]
 
 
-min_num_solved = 10000000000000
+min_num_solved = 1000000000000000000000
 for canditate in range(1 << D):
     num_solved = 0
     score = 0
