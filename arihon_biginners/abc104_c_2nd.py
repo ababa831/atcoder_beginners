@@ -19,6 +19,7 @@ for i in range(1 << D):
     else:
         # TODO: write codes of solving problems halfway
         remaining_probrems = G - num_solved_problems
+        
         pass
 
 print(num_solved_problems)
