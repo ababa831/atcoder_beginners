@@ -1,3 +1,4 @@
+# Accepted
 import itertools
 
 antenas = list(map(int, [input() for _ in range(5)]))

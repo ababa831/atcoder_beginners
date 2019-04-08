@@ -1,3 +1,4 @@
+# Accepted
 import itertools
 import math
 
