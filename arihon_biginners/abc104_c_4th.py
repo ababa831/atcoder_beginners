@@ -39,8 +39,9 @@ for p_combi in range(1 << D):
         # Select a problem index
         # which have highest point in not_selected_p_idxes
         not_selected_p_idx_highest = not_selected_p_idxs[0]
-        addable_score = 100 * p_c_list[not_selected_p_idx_highest][0] * (
-            not_selected_p_idx_highest + 1)
+        num_p = p_c_list[not_selected_p_idx_highest][0]
+        addable_score = \
+            100 * num_p * (not_selected_p_idx_highest + 1)
         if score_diff + addable_score > 0:
             score_per_p = 100 * (not_selected_p_idx_highest + 1)
             n_undersolved = math.ceil(abs(score_diff) / score_per_p)
