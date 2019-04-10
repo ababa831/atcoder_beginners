@@ -21,7 +21,8 @@ for p_combi in range(1 << D):
     # print('1:', n_solved, 'score_diff:', score_diff)
     if score_diff >= 0:
         # Fine-tuning to reduce "n_solved" problems over solved
-        # "selected_p_idxs" already sorted by probrems from low points to high
+        # "selected_p_idxs" were already sorted by probrems
+        # from low points to high
         p_idx_lowest = selected_p_idxs[0]
         score_per_p = 100 * (p_idx_lowest + 1)
         # if score_diff - bonus_point > 0
