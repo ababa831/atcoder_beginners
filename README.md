@@ -23,9 +23,10 @@ I will irregularly upload submitted codes of the AtCoder Beginners Contest and a
 Ansewers are in [first_trial](https://github.com/ababa893/atcoder_beginners/tree/master/first_trial) directory, [second_trial.py](https://github.com/ababa893/atcoder_beginners/blob/master/second_trial.py) and [third_trial.py](https://github.com/ababa893/atcoder_beginners/blob/master/third_trial.py)
 
 ### [AtCoder 版！蟻本 (初級編)](https://qiita.com/drken/items/e77685614f3c6bf86f44)
-[ARC004 A](https://github.com/ababa893/atcoder_beginners/blob/master/arihon_biginners/arc004.py)
-[ABC079_C](https://github.com/ababa893/atcoder_beginners/blob/master/arihon_biginners/abc079_c.py)
-
+- [ARC004 A](https://github.com/ababa893/atcoder_beginners/blob/master/arihon_biginners/arc004.py)
+- Bit full search
+  - [ABC079 C](https://github.com/ababa893/atcoder_beginners/blob/master/arihon_biginners/abc079_c.py)
+  - [ABC104 C](https://github.com/ababa893/atcoder_beginners/blob/master/arihon_biginners/abc104_c_4th.py)
 
 ### Past problems of AtCoder Beginners Contest
 - [ABC123](https://atcoder.jp/contests/abc121)
