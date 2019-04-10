@@ -1,7 +1,6 @@
 # AC
 import math
 
-
 D, G = map(int, input().split())
 p_c_list = [list(map(int, input().split())) for _ in range(D)]
 
@@ -37,16 +36,18 @@ for p_combi in range(1 << D):
         not_selected_p_idxs = \
             [p_idx for p_idx in range(D) if p_idx not in selected_p_idxs]
         not_selected_p_idxs = sorted(not_selected_p_idxs, reverse=True)
-        # Add n_solved where problems are searched oredred by points DESC
+        # Select a problem index
+        # which have highest point in not_selected_p_idxes
         not_selected_p_idx_highest = not_selected_p_idxs[0]
-        addable_score = 100 * p_c_list[not_selected_p_idx_highest][0] * (not_selected_p_idx_highest+1)
+        addable_score = 100 * p_c_list[not_selected_p_idx_highest][0] * (
+            not_selected_p_idx_highest + 1)
         if score_diff + addable_score > 0:
             score_per_p = 100 * (not_selected_p_idx_highest + 1)
             n_undersolved = math.ceil(abs(score_diff) / score_per_p)
             if n_undersolved < p_c_list[not_selected_p_idx_highest][0]:
                 n_solved += n_undersolved
             # print('3:', n_solved)
-    if n_solved > 0 and score_diff >=0:
+    if n_solved > 0 and score_diff >= 0:
         min_n_solved = min(n_solved, min_n_solved)
 
 print(min_n_solved)
