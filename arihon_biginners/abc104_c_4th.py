@@ -45,7 +45,7 @@ for p_combi in range(1 << D):
         if score_diff + addable_score > 0:
             score_per_p = 100 * (not_selected_p_idx_highest + 1)
             n_undersolved = math.ceil(abs(score_diff) / score_per_p)
-            if n_undersolved < p_c_list[not_selected_p_idx_highest][0]:
+            if n_undersolved < num_p:
                 n_solved += n_undersolved
             # print('3:', n_solved)
     if n_solved > 0 and score_diff >= 0:
