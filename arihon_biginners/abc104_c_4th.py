@@ -1,6 +1,7 @@
 # AC
 import math
 
+
 D, G = map(int, input().split())
 p_c_list = [list(map(int, input().split())) for _ in range(D)]
 
