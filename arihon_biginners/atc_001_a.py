@@ -3,7 +3,7 @@ class DFSTool(object):
         self.already_passed = []
         self.H = H
         self.W = W
-        # inputで取得した迷路の行列データ
+        # Information of a stage map gotten from inputs
         # e.g.[[p_00,...,p_0W-1],...,[p_H-10,...,p_H-1W-1]]
         self.stage_info = stage_info
 
@@ -11,15 +11,11 @@ class DFSTool(object):
         out_of_w = x >= self.W or x < 0
         out_of_h = y >= self.H or y < 0
         if out_of_w or out_of_h:
-            print('aa')
             return True
         # 2 stage condition branching to avoid ValueError
-        elif self.stage_info[y][x] != '.' and \
-                self.stage_info[y][x] != 's':
-            print('bb')
+        elif self.stage_info[y][x] == '#':
             return True
         else:
-            print('cc')
             return False
 
     def is_goal(self, x, y):
@@ -42,7 +38,7 @@ class DFSTool(object):
 
 
 if __name__ == "__main__":
-    # WIP
+    # RE
     H, W = map(int, input().split())
     # Register the stage infomation and the start point
     stage_info = []
