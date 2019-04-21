@@ -1,3 +1,7 @@
+import sys
+sys.setrecursionlimit(10**6)
+
+
 class DFSTool(object):
     def __init__(self, H, W, stage_info):
         self.already_passed = []
@@ -31,15 +35,14 @@ class DFSTool(object):
             return
         else:
             self.already_passed.append([x, y])
-            self.dfs(x+1, y)
-            self.dfs(x-1, y)
-            self.dfs(x, y+1)
-            self.dfs(x, y-1)
+            self.dfs(x + 1, y)
+            self.dfs(x - 1, y)
+            self.dfs(x, y + 1)
+            self.dfs(x, y - 1)
 
 
 if __name__ == "__main__":
-    # RE 
-    # (I could not find probrems)
+    # TLE
     H, W = map(int, input().split())
     # Register the stage infomation and the start point
     stage_info = []
