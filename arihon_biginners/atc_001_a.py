@@ -43,7 +43,6 @@ class DFSTool(object):
 
 if __name__ == "__main__":
     # TLE
-    
     H, W = map(int, input().split())
     # Register the stage infomation and the start point
     stage_info = []
