@@ -1,4 +1,5 @@
 # WA
+# TODO: Review "Cumulative Sum"
 from fractions import gcd
 from itertools import combinations_with_replacement
 from functools import reduce
