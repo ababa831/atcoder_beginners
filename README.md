@@ -33,6 +33,7 @@ I will irregularly upload submitted codes of [AtCoder](https://atcoder.jp/) prob
 - DFS
   - [ATC001 A](https://github.com/ababa893/atcoder_beginners/blob/master/arihon_biginners/atc_001_a.py)
   - [ATC001 A (use a stack)](https://github.com/ababa893/atcoder_beginners/blob/master/arihon_biginners/atc_001_a_stack.py)
+  - [ARC031 B]
 
 ### Past problems of AtCoder Beginners Contest
 - [ABC123](https://atcoder.jp/contests/abc121)
