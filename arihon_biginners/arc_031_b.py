@@ -1,11 +1,10 @@
 from collections import deque
 
-geo_map = [list(input()) for _ in range(10)]  # 10 x 10
-
 
 class IslandableChecker(object):
     def __init__(self, geo_map, start_point=[0, 0]):
-        self.geo_map = geo_map
+        # 10 x 10
+        self.geo_map = [list(input()) for _ in range(10)]
         self.stack = deque()
         self.start_point = start_point
     
@@ -20,7 +19,7 @@ class IslandableChecker(object):
         # 1. Search "oxo"(two lands and a sea sandwitches)
         # 2. Check if there are pairs which can reach each other via DFS
         # 3. "The reachable pair" detected -> "YES", or -> "NO"
-
+        
 
     def count_land_pairs(self, sea_point):
         pass
