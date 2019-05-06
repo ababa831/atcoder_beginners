@@ -20,7 +20,6 @@ I will irregularly upload submitted codes of [AtCoder](https://atcoder.jp/) prob
 10. [9問目 ABC049C - 白昼夢 / Daydream](https://abc049.contest.atcoder.jp/tasks/arc065_a)
 11. [10問目 ABC086C - Traveling](https://abc086.contest.atcoder.jp/tasks/arc089_a)
 
-
 #### Ansewers
 - [first_trial](https://github.com/ababa893/atcoder_beginners/tree/master/first_trial) 
 - [second_trial.py](https://github.com/ababa893/atcoder_beginners/blob/master/second_trial.py) 
