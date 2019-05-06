@@ -222,7 +222,6 @@ I will irregularly upload submitted codes of [AtCoder](https://atcoder.jp/) prob
         - [1st trial](https://github.com/ababa893/atcoder_beginners/blob/master/progcon_book/alds1_3_c.py)
 
 
-
 ## Additional problems
 - [A string reversing problem](https://qiita.com/imadedede/items/055fa0c4eac7e0a07cf1) in Python 
     - Written in [reverse_text.py](https://github.com/ababa893/atcoder_beginners/blob/master/reverse_text.py)
