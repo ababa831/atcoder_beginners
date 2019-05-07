@@ -10,7 +10,7 @@ class IslandableChecker(object):
 
     def check(self, redefined_start_point=None):
         """
-        Check if the map can unite as a new island 
+        Check if the map can unite as a new island
         when a sea point is converted to a land one.
         """
         if redefined_start_point is not None:
