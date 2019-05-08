@@ -26,7 +26,7 @@ class IslandableChecker(object):
 
     def get_land_pair(self, sea_point):
         """
-        Check if there are pairs which describe 
+        Check if there are pairs which describe
         "oxo"(two lands and a sea sandwitches)
 
         Returns
