@@ -24,7 +24,7 @@ class IslandableChecker(object):
                 if col_val == 'x':
                     self.get_land_pairs(col_idx, row_idx)
 
-    def get_land_pair(self, sea_point):
+    def get_land_pairs(self, sea_point):
         """
         Check if there are pairs which describe
         "oxo"(two lands and a sea sandwitches)
