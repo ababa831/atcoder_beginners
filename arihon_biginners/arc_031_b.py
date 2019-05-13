@@ -47,14 +47,23 @@ class IslandableChecker(object):
         x, y = sea_point[0], sea_point[1]
         # TODO:
         # Check if the canditates exist
-        canditates1 = [self.geo_map[y + 1][x], self.geo_map[y - 1][x]]
-        canditates2 = [self.geo_map[y][x + 1], self.geo_map[y][x - 1]]
+        canditates1, canditates2 = None, None
+        if self.is_existing(x, y + 1) and self.is_existing(x, y - 1):
+            canditates1 = [self.geo_map[y + 1][x], self.geo_map[y - 1][x]]
+        if self.is_existing(x + 1, y) and self.is_existing(x - 1, y):
+            canditates2 = [self.geo_map[y][x + 1], self.geo_map[y][x - 1]]
 
         if self.is_land_pair(canditates1):
             land_pairs.append([(y + 1, x), (y - 1, x)])
         if self.is_land_pair(canditates2):
             land_pairs.append([(y, x + 1), (y, x - 1)])
         return land_pairs
+
+    def is_existing(self, point):
+        if 0 <= point[0] < 10 and 0 <= point[1] < 10:
+            return True
+        else:
+            return False
 
     def is_land_pair(self, canditates):
         if canditates[0] == 'o' and canditates[1] == 'o':
