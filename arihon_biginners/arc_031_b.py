@@ -18,18 +18,20 @@ class IslandableChecker(object):
 
         # TODO:
         # 1. Search "oxo"(two lands and a sea sandwitches)
-        land_pairs = None
+        land_pairs = []
         for row_idx, row_val in enumerate(self.geo_map):
             for col_idx, col_val in enumerate(row_val):
                 if col_val == 'x':
-                    land_pairs = \
-                        self.get_land_pairs(col_idx, row_idx)
+                    land_pair = self.get_land_pairs(col_idx, row_idx)
+                    land_pairs.append(land_pair)
 
         # 2. Check if there are pairs which can reach each other via DFS
         # 3. "The reachable pair" detected -> "YES", or -> "NO"
         for land_pair in land_pairs:
             # WIP
-            pass
+            # TODO:
+            # I should deal with cases where there are malti lands (> 3)
+            
 
     def get_land_pairs(self, sea_point):
         """
