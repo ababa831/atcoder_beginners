@@ -1,2 +1,5 @@
 # WIP
-# (I will consider the case if there are 3 lands on the map)
+# Memo:
+# There is
+# - a land -> 'YES'
+# - two or more lands -> If a sea point is next to edges of the lands
