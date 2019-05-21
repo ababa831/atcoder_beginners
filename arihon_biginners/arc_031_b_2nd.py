@@ -6,11 +6,13 @@
 #   Convert a sea point to a land one
 #   and check if there is a land on the map using DFS
 from collections import deque
+import time
 
 
 class FillUpper(object):
     def __init__(self, landsea_map, one_side=10):
         self.stack = deque()
+        self.searched_points = []
         self.one_side = one_side
         self.landsea_map = landsea_map
         """
@@ -29,8 +31,11 @@ class FillUpper(object):
             return
         elif not self._is_land_point(point):
             return
+        elif point in self.searched_points:
+            return
         else:
             self.map_for_dfs[point[1]][point[0]] = 'o'
+            self.searched_points.append(point)
             self.stack.append([point[0] + 1, point[1]])
             self.stack.append([point[0] - 1, point[1]])
             self.stack.append([point[0], point[1] + 1])
@@ -63,6 +68,10 @@ if __name__ == "__main__":
             fu.stack.append([x, y])
             while fu.stack:
                 fu.DFS()
+                """
+                print(fu.stack, '\n')
+                time.sleep(1)
+                """
             if fu.map_for_dfs == fu.landsea_map:
                 print('YES')
                 exit()
