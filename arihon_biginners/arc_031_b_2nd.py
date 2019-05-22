@@ -75,4 +75,5 @@ if __name__ == "__main__":
             if fu.map_for_dfs == fu.landsea_map:
                 print('YES')
                 exit()
+                
     print('NO')
