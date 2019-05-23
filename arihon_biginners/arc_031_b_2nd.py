@@ -6,7 +6,7 @@
 #   Convert a sea point to a land one
 #   and check if there is a land on the map using DFS
 from collections import deque
-import time
+# import time
 from copy import deepcopy
 
 
