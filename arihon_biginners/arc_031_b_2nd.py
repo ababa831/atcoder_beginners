@@ -7,6 +7,7 @@
 #   and check if there is a land on the map using DFS
 from collections import deque
 import time
+from copy import deepcopy
 
 
 class FillUpper(object):
@@ -20,12 +21,10 @@ class FillUpper(object):
         -> 'YES'
         """
         self.map_for_dfs = [['x'] * one_side] * one_side
-        self.n_fill_uped = 0
 
     def fillup(self, point):
         if not self._is_land_point(point):
             self.landsea_map[point[1]][point[0]] = 'o'
-            self.n_fill_uped += 1
 
     def DFS(self):
         point = self.stack.pop()
@@ -69,8 +68,13 @@ if __name__ == "__main__":
     for x in range(one_side):
         for y in range(one_side):
             fu = FillUpper(landsea_map, one_side)
-            # print('land_sea_map:\n', fu.map_for_dfs)
             fu.fillup([x, y])
+            filluped_map = deepcopy(fu.landsea_map)
+
+            if landsea_map[y][x] == 'x':
+                errmsg = '埋め立てメソッドが有効に働いていない'
+                assert landsea_map != filluped_map, errmsg
+
             fu.stack.append([x, y])
             while fu.stack:
                 fu.DFS()
@@ -78,7 +82,7 @@ if __name__ == "__main__":
                 # print('map_for_dfs:\n', fu.map_for_dfs)
                 # time.sleep(0.1)
                 
-            if fu.map_for_dfs == fu.landsea_map and fu.n_fill_uped > 0:
+            if fu.map_for_dfs == filluped_map:
                 print('YES')
                 exit()
 
