@@ -1,6 +1,5 @@
 # WA (WIP)
 # Memo:
-# There is
 # - a land -> 'YES'
 # - two or more lands ->
 #   Convert a sea point to a land one
@@ -8,6 +7,8 @@
 from collections import deque
 # import time
 from copy import deepcopy
+import sys
+sys.setrecursionlimit(10**8)
 
 
 class FillUpper(object):
