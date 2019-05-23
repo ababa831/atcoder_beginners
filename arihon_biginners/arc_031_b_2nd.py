@@ -20,10 +20,12 @@ class FillUpper(object):
         -> 'YES'
         """
         self.map_for_dfs = [['x'] * one_side] * one_side
+        self.n_fill_uped = 0
 
     def fillup(self, point):
         if not self._is_land_point(point):
             self.landsea_map[point[1]][point[0]] = 'o'
+            self.n_fill_uped += 1
 
     def DFS(self):
         point = self.stack.pop()
@@ -40,6 +42,9 @@ class FillUpper(object):
             self.stack.append([point[0] - 1, point[1]])
             self.stack.append([point[0], point[1] + 1])
             self.stack.append([point[0], point[1] - 1])
+
+    def clear_map_for_dfs(self):
+        self.map_for_dfs = [['x'] * one_side] * one_side
 
     def _is_in_the_map(self, point):
         in_the_xrange = 0 <= point[0] < self.one_side
@@ -64,16 +69,17 @@ if __name__ == "__main__":
     for x in range(one_side):
         for y in range(one_side):
             fu = FillUpper(landsea_map, one_side)
+            # print('land_sea_map:\n', fu.map_for_dfs)
             fu.fillup([x, y])
             fu.stack.append([x, y])
             while fu.stack:
                 fu.DFS()
-                """
-                print(fu.stack, '\n')
-                time.sleep(1)
-                """
-            if fu.map_for_dfs == fu.landsea_map:
+                # print('landsea_map:\n', fu.landsea_map)
+                # print('map_for_dfs:\n', fu.map_for_dfs)
+                # time.sleep(0.1)
+                
+            if fu.map_for_dfs == fu.landsea_map and fu.n_fill_uped > 0:
                 print('YES')
                 exit()
-                
+
     print('NO')
