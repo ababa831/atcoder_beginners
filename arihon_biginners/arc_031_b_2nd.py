@@ -1,14 +1,11 @@
-# WA (WIP)
+# Accepted
 # Memo:
 # - a land -> 'YES'
 # - two or more lands ->
 #   Convert a sea point to a land one
 #   and check if there is a land on the map using DFS
 from collections import deque
-import time
 from copy import deepcopy
-import sys
-sys.setrecursionlimit(10**8)
 
 
 class FillUpper(object):
@@ -21,7 +18,9 @@ class FillUpper(object):
         If DFS was finished and map_for_dfs == land_sea_map
         -> 'YES'
         """
-        self.map_for_dfs = [['x'] * one_side] * one_side
+        # DO NOT WRITE map_for_dfs as:
+        # self.map_for_dfs = [['x'] * one_side] * one_side
+        self.map_for_dfs = [['x'] * one_side for _ in range(one_side)]
         self.n_fillupped = 0
 
     def fillup(self, point):
@@ -72,24 +71,17 @@ if __name__ == "__main__":
         for y in range(one_side):
             map_for_fullsearch = deepcopy(landsea_map)
             fu = FillUpper(map_for_fullsearch, one_side)
-            # print('n_stack: ', len(fu.stack))
             fu.fillup([x, y])
             filluped_map = deepcopy(fu.landsea_map)
 
             if map_for_fullsearch[y][x] == 'x':
-                errmsg = '埋め立てメソッドが有効に働いていない'
+                errmsg = 'The "fillup" method is not working!'
                 assert map_for_fullsearch != filluped_map, errmsg
 
             fu.stack.append([x, y])
             while fu.stack:
                 fu.DFS()
-                """
-                # For debug
-                print('landsea_map:\n', fu.landsea_map)
-                print('map_for_dfs:\n', fu.map_for_dfs)
-                print('searched_points: ', fu.searched_points)
-                time.sleep(0.001)
-                """
+
             if fu.map_for_dfs == filluped_map and fu.n_fillupped > 0:
                 print('YES')
                 exit()
