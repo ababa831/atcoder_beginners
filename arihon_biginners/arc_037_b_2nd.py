@@ -44,4 +44,4 @@ if __name__ == "__main__":
     while dfst.stack:
         dfst.dfs()
 
-    # TODO: Deal with discontinuous tree (How to reset DFS)
+    # TODO: Deal with discontinuous trees (How to reset DFS)
