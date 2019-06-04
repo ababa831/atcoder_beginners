@@ -5,4 +5,4 @@ if a <= 5:
 elif a >= 13:
     print(b)
 else:
-    print(int(b/2)) 
+    print(b // 2)
