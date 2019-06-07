@@ -1,10 +1,11 @@
-# WIP
+# WA
+# Test cases: 
 from collections import deque
 
 
 class DFSTool(object):
     def __init__(self, N, graph, init_stack):
-        self.N = N
+        self.N = N 
         self.graph = graph
         self.data_len = len(graph)
         self.stack = deque()
