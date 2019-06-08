@@ -1,3 +1,4 @@
+# WA
 from collections import deque
 from copy import copy
 
