@@ -35,6 +35,10 @@ I will irregularly upload submitted codes of [AtCoder](https://atcoder.jp/) prob
   - [ATC001 A (use a stack)](https://github.com/ababa893/atcoder_beginners/blob/master/arihon_biginners/atc_001_a_stack.py)
   - [ARC031 B](https://github.com/ababa893/atcoder_beginners/blob/master/arihon_biginners/arc_031_b_2nd.py)
 
+### [Educational DP Contest / DP まとめコンテスト](https://atcoder.jp/contests/dp)
+- [a Frog 1](https://github.com/ababa893/atcoder_beginners/blob/master/dp_practice/edp_a.py)
+- [b Frog 2](https://github.com/ababa893/atcoder_beginners/blob/master/dp_practice/edp_b.py)
+
 ### Past problems of AtCoder Beginner Contest
 - [ABC129](https://atcoder.jp/contests/abc129)
   - [a](https://github.com/ababa893/atcoder_beginners/blob/master/contest_129/a.py)
