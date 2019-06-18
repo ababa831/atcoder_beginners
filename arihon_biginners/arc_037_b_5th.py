@@ -1,4 +1,5 @@
 # WA
+# All examples were passed, but WA in some test cases
 from collections import deque
 
 
