@@ -38,6 +38,8 @@ I will irregularly upload submitted codes of [AtCoder](https://atcoder.jp/) prob
 ### [Educational DP Contest / DP まとめコンテスト](https://atcoder.jp/contests/dp)
 - [a Frog 1](https://github.com/ababa893/atcoder_beginners/blob/master/dp_practice/edp_a.py)
 - [b Frog 2](https://github.com/ababa893/atcoder_beginners/blob/master/dp_practice/edp_b.py)
+- [c Vacation](https://github.com/ababa893/atcoder_beginners/blob/master/dp_practice/edp_c.py)
+- [d Knapsack 1](https://github.com/ababa893/atcoder_beginners/blob/master/dp_practice/edp_d.py)
 
 ### Past problems of AtCoder Beginner Contest
 - [ABC129](https://atcoder.jp/contests/abc129)
