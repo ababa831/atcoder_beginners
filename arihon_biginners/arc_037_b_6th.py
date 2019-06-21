@@ -1,6 +1,6 @@
+# WIP (Something wrong)
 from collections import deque
 
-# WIP (Something wrong)
 N, M = map(int, input().split())
 connect = [[] for _ in range(N)]
 for _ in range(M):
