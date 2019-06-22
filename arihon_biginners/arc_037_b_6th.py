@@ -1,50 +1,62 @@
-# WIP (Something wrong)
+# WA
 from collections import deque
 
 N, M = map(int, input().split())
+
 connect = [[] for _ in range(N)]
 for _ in range(M):
     u, v = map(int, input().split())
     connect[u - 1].append(v)
-    connect[v - 1].append(u)
+    # connect[v - 1].append(u)
 
-# Settings
+# print(connect)
+
+# Global settings
 already_passed = [False] * N
-stack = deque()
-n_tree = 0
+queue = deque()
 is_tree = True
-curr_max = -1
+max_in_graph = 1
 
 
 def DFS():
-    global is_tree
-    global curr_max
+    # Global variables
     global already_passed
+    global queue
+    global is_tree
+    global max_in_graph
+    
+    curr_node = queue.popleft()
 
-    curr_node = stack.pop()
-    next_nodes = []
-    if not already_passed[curr_node - 1]:
-        next_nodes = connect[curr_node - 1]
-        for next_node in next_nodes:
-            stack.append(next_node)
-        already_passed[curr_node - 1] = True
-    else:
+    if already_passed[curr_node - 1]:
         is_tree = False
-    curr_max = max(curr_max, curr_node)
+    else:
+        nexts = connect[curr_node - 1]
+
+        curr_max = -1
+        if len(nexts) != 0:
+            curr_max = max(nexts)
+            for n in nexts:
+                queue.append(n)
+        else:
+            curr_max = curr_node
+
+        already_passed[curr_node - 1] = True
+        max_in_graph = max(curr_max, max_in_graph)
 
 
-stack.append(1)
-while True:
-    while stack:
-        print(is_tree)
+n_tree = 0
+jump_to = 1
+while jump_to <= N:
+    queue.append(jump_to)
+    while queue:
+        # print(queue)
         DFS()
+        # print(queue)
+        # print(is_tree)
     if is_tree:
         n_tree += 1
-    jump_to = curr_max + 1
-    if jump_to <= N:
-        stack.append(jump_to)
-    else:
-        break
+    # Reset settings
     is_tree = True
+    jump_to = max_in_graph + 1
 
 print(n_tree)
