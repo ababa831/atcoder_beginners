@@ -1,6 +1,4 @@
 # AC
-from copy import copy
-
 s = list(input())
 
 before = ''
