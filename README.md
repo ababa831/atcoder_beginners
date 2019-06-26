@@ -59,6 +59,8 @@ I will irregularly upload submitted codes of [AtCoder](https://atcoder.jp/) prob
   - [b](https://github.com/ababa893/atcoder_beginners/blob/master/contest_127/b.py)
   - [c](https://github.com/ababa893/atcoder_beginners/blob/master/contest_127/c.py)
   - [d](https://github.com/ababa893/atcoder_beginners/blob/master/contest_127/d_2nd.py)
+- [ABC126](https://atcoder.jp/contests/abc126)
+  - [a](https://github.com/ababa893/atcoder_beginners/blob/master/contest_126/c.py)
 - [ABC123](https://atcoder.jp/contests/abc121)
   - [a](https://github.com/ababa893/atcoder_beginners/blob/master/contest_123/a.py)
   - [b](https://github.com/ababa893/atcoder_beginners/blob/master/contest_123/b.py)
