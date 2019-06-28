@@ -9,7 +9,7 @@ dp_l = [0] * (N + 1)
 dp_r = [0] * (N + 1)
 for i in range(1, N):
     dp_l[i] = gcd(dp_l[i - 1], AAA[i-1])
-    dp_r[i] = gcd(dp_r[i-1], AAA[-i])
+    dp_r[i] = gcd(dp_r[i - 1], AAA[-i])
 
 # Get max gcd for all combinations
 max_m = -1
