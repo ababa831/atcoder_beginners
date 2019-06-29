@@ -43,6 +43,11 @@ I will irregularly upload submitted codes of [AtCoder](https://atcoder.jp/) prob
 - [d Knapsack 1](https://github.com/ababa893/atcoder_beginners/blob/master/dp_practice/edp_d.py)
 
 ### Past problems of AtCoder Beginner Contest
+- [ABC132](https://atcoder.jp/contests/abc132)
+  - [a](https://github.com/ababa893/atcoder_beginners/blob/master/contest_132/a.py)
+  - [b](https://github.com/ababa893/atcoder_beginners/blob/master/contest_132/b.py)
+  - [c](https://github.com/ababa893/atcoder_beginners/blob/master/contest_132/c.py)
+  - [d](https://github.com/ababa893/atcoder_beginners/blob/master/contest_132/d.py)
 - [ABC131](https://atcoder.jp/contests/abc131)
   - [a](https://github.com/ababa893/atcoder_beginners/blob/master/contest_131/a.py)
   - [b](https://github.com/ababa893/atcoder_beginners/blob/master/contest_131/b.py)
