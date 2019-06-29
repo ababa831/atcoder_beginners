@@ -1,3 +1,4 @@
+# AC
 n = int(input())
 ppp = list(map(int, input().split()))
 

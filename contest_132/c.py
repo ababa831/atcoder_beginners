@@ -1,3 +1,4 @@
+# AC
 N = int(input())
 ddd = list(map(int, input().split()))
 

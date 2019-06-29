@@ -1,3 +1,5 @@
+# AC
+
 S = input()
 
 set_s = set(S)
