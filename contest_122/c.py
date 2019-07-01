@@ -1,4 +1,6 @@
 # AC
+# a typical solution by using "cumulative sum"
+
 N, Q = map(int, input().split())
 S = input()
 
