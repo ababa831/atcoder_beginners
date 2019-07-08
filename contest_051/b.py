@@ -9,3 +9,4 @@ for x in range(K+1):
             n_combinations += 1
 
 print(n_combinations)
+
