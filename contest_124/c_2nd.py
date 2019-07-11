@@ -1,3 +1,4 @@
+# AC
 S = list(map(int, list(input())))
 
 last = S[0]
