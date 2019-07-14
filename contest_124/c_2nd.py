@@ -13,4 +13,3 @@ for idx, current in enumerate(S):
     last = current
 
 print(n_change)
-
