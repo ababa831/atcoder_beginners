@@ -81,6 +81,8 @@ I will irregularly upload submitted codes of [AtCoder](https://atcoder.jp/) prob
   - [b Can you solve this?](https://github.com/ababa893/atcoder_beginners/blob/master/contest_121/b.py)
   - [c Energy Drink Collector](https://github.com/ababa893/atcoder_beginners/blob/master/contest_121/c_2nd.py)
   - [d XOR World](https://github.com/ababa893/atcoder_beginners/blob/master/contest_121/d.py)
+- [ABC120](https://atcoder.jp/contests/abc120)
+  - [c](https://github.com/ababa893/atcoder_beginners/blob/master/contest_120/c.py)
 - [ABC116]
   - (None) 
 - [ABC115](https://beta.atcoder.jp/contests/abc115)
