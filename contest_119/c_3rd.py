@@ -41,7 +41,7 @@ def dfs():
 
         if isinstance(l_val, str):
             continue
-        if not l_val:
+        if l_val is None:
             continue
         if l_val <= 0:
             curr_bamboos[idx] = None
