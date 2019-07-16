@@ -27,15 +27,15 @@ def dfs():
     for idx, l_val in enumerate(curr_lll):
         # If reached A or B or C
         if 'A' not in curr_lll and l_val == A:
-            curr_bamboos[idx] = 'A'
+            curr_bamboos[0][idx] = 'A'
             stack.append(curr_bamboos)
             continue
         elif 'B' not in curr_lll and l_val == B:
-            curr_bamboos[idx] = 'B'
+            curr_bamboos[0][idx] = 'B'
             stack.append(curr_bamboos)
             continue
         elif 'C' not in curr_lll and l_val == C:
-            curr_bamboos[idx] = 'C'
+            curr_bamboos[0][idx] = 'C'
             stack.append(curr_bamboos)
             continue
 
