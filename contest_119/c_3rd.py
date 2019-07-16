@@ -62,6 +62,8 @@ def dfs():
         for another_idx, another_len in enumerate(curr_lll):
             if idx == another_idx or isinstance(another_len, str):
                 continue
+            if another_len is None:
+                continue
             concatted_bamboos = deepcopy(curr_bamboos)
             concatted_bamboos[0][another_idx] = another_len + l_val
             concatted_bamboos[1] = mp + 10
