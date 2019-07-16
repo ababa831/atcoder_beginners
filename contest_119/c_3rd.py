@@ -1,6 +1,6 @@
 # WIP
 from collections import deque
-from copy import copy, deepcopy
+from copy import deepcopy
 
 
 N, A, B, C = map(int, input().split())
