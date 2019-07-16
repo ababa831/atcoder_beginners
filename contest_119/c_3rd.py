@@ -60,7 +60,9 @@ def dfs():
         stack.append(shrinked_bamboos)
         # - concatnate with another bamboo
         for another_idx, another_len in enumerate(curr_lll):
-            if idx == another_idx or isinstance(another_len, str):
+            if idx == another_idx:
+                continue
+            if isinstance(another_len, str):
                 continue
             if another_len is None:
                 continue
