@@ -39,9 +39,11 @@ def dfs():
             stack.append(curr_bamboos)
             continue
 
+        if isinstance(l_val, str):
+            continue
         if not l_val:
             continue
-        if isinstance(l_val, int) and l_val <= 0:
+        if l_val <= 0:
             curr_bamboos[idx] = None
             continue
         # Add new bamboo states to the stack
