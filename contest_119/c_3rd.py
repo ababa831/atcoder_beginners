@@ -2,7 +2,6 @@
 from collections import deque
 from copy import deepcopy
 
-
 N, A, B, C = map(int, input().split())
 lll = [int(input()) for _ in range(N)]
 
