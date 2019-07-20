@@ -24,8 +24,8 @@ def dfs():
                 b_combi.append(lll[idx])
             elif history == 'C':
                 c_combi.append(lll[idx])
-        mp_used_for_concat = \
-            len(a_combi)-1 + len(b_combi)-1 + len(c_combi)-1
+        n_concat = len(a_combi)-1 + len(b_combi)-1 + len(c_combi)-1
+        mp_used_for_concat = n_concat * 10
         mp_used_for_ext_shr = \
             abs(A-sum(a_combi)) + abs(B-sum(b_combi)) + abs(C-sum(c_combi))
 
