@@ -19,9 +19,7 @@ def dfs():
         filter_c = 'C' not in curr_path
         if filter_a or filter_b or filter_c:
             return
-        a_combi = []
-        b_combi = []
-        c_combi = []
+        a_combi, b_combi, c_combi = [], [], []
         for idx, history in enumerate(curr_path):
             if history == 'A':
                 a_combi.append(lll[idx])
