@@ -20,12 +20,12 @@ def dfs():
         if filter_a or filter_b or filter_c:
             return
         a_combi, b_combi, c_combi = [], [], []
-        for idx, history in enumerate(curr_path):
-            if history == 'A':
+        for idx, bamboo_cls in enumerate(curr_path):
+            if bamboo_cls == 'A':
                 a_combi.append(lll[idx])
-            elif history == 'B':
+            elif bamboo_cls == 'B':
                 b_combi.append(lll[idx])
-            elif history == 'C':
+            elif bamboo_cls == 'C':
                 c_combi.append(lll[idx])
         n_concat = len(a_combi)-1 + len(b_combi)-1 + len(c_combi)-1
         mp_used_for_concat = n_concat * 10
