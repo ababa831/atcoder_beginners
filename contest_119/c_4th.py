@@ -1,4 +1,4 @@
-# WIP
+# AC
 from collections import deque
 
 N, A, B, C = map(int, input().split())
@@ -14,6 +14,11 @@ mp_results = []
 def dfs():
     depth, curr_path = stack.pop()
     if depth == N:
+        filter_a = 'A' not in curr_path
+        filter_b = 'B' not in curr_path
+        filter_c = 'C' not in curr_path
+        if filter_a or filter_b or filter_c:
+            return
         a_combi = []
         b_combi = []
         c_combi = []
