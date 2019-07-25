@@ -3,4 +3,5 @@
 N, M = map(int, input().split())
 XXX = list(map(int, input().split()))
 
-# Sort -> calc diff between a set of two points -> place komas? 
+# Sort -> place komas on the two edges 
+# -> calc distance between elements in sorted XXX
