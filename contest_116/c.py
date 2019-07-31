@@ -4,6 +4,7 @@ from collections import deque
 N = int(input())
 hhh = list(map(int, input().split()))
 
+"""
 n_showered = 0
 max_hhh = max(hhh)
 
@@ -29,3 +30,4 @@ while queue:
             zero_exists = False
 
 print(n_showered)
+"""
