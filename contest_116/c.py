@@ -6,7 +6,6 @@ hhh = list(map(int, input().split()))
 
 n_showered = 0
 max_hhh = max(hhh)
-
 queue = deque()
 
 
