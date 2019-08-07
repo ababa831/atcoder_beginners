@@ -36,7 +36,7 @@ def enqueue_wo_zero_elems(target_list):
 
 
 # Initial queing
-enqueue_wo_zero_elems(hhh)
+queue.append(hhh)
 
 while queue:
     print(queue)
