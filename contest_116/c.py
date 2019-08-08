@@ -18,7 +18,7 @@ def enqueue_wo_zero_elems(target_list):
         try:
             if cursor < len(target_list) - 1:
                 zero_idx_leftmost = target_list[cursor + 1:].index(0)
-                part_list = target_list[:zero_idx_leftmost]
+                part_list = target_list[:zero_idx_leftmost]  # 1 to zero_...+1
                 if len(part_list) != 0:
                     part_list = list(map(lambda x: x - 1, part_list))
                     n_showered += 1
