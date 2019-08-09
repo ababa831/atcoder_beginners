@@ -14,12 +14,11 @@ def enqueue_wo_zero_elems(target_list):
     zero_exists = True
     cursor = -1
     while zero_exists:
-        # print(zero_exists, cursor, queue)
+        print(zero_exists, cursor, queue)
         try:
             if cursor < len(target_list) - 1:
                 zero_idx_leftmost = target_list[cursor + 1:].index(0)
-                part_list = target_list[:zero_idx_leftmost]
-                # print(part_list)
+                part_list = target_list[:zero_idx_leftmost]  # 1 to zero_...+1
                 if len(part_list) != 0:
                     part_list = list(map(lambda x: x - 1, part_list))
                     n_showered += 1
@@ -30,14 +29,17 @@ def enqueue_wo_zero_elems(target_list):
         except ValueError:
             leftover = target_list[cursor + 1:]
             if len(leftover) != 0:
+                leftover = list(map(lambda x: x - 1, leftover))
+                n_showered += 1
                 queue.append(leftover)
             zero_exists = False
 
 
 # Initial queing
-enqueue_wo_zero_elems(hhh)
+queue.append(hhh)
 
 while queue:
+    print(queue)
     target_list = queue.popleft()
     enqueue_wo_zero_elems(target_list)
 
