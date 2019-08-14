@@ -44,7 +44,6 @@ for i, dp_v in enumerate(dp[:-1]):
     num_next_0_frm1, is_max_next_0_frm1, num_next_1, is_max_next_1 = \
         update(digit, 1)
 
-    print(dp_v)
     dp[i+1][1] = num_next_1 * dp_v[1]
     dp[i+1][0] = num_next_0_frm0 * dp_v[0] + num_next_0_frm1 * dp_v[1]
 
