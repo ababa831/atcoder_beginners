@@ -38,3 +38,4 @@ for i, dpv in enumerate(dp[:-1]):
 
 # Result
 print(dp[-1][0] + dp[-1][1])
+
