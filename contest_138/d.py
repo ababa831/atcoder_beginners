@@ -4,7 +4,7 @@ from collections import deque
 
 N, Q = map(int, input().split())
 
-link = [None] * N 
+link = [None] * N
 for _ in range(N-1):
     a, b = map(int, input().split())
     if link[a-1] is None:
