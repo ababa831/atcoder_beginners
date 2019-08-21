@@ -1,33 +1,33 @@
-# AC (test cases assigned before contest)
-# WA (after_contest_x)
 import sys
+from collections import deque
 
+stack = deque()
 input = sys.stdin.readline
 
 N, Q = map(int, input().split())
 
-link = [None] * N
+link = [[] for _ in range(N)]
 for _ in range(N - 1):
     a, b = map(int, input().split())
-    if link[a - 1] is None:
-        link[a - 1] = [b]
-    else:
-        link[a - 1].append(b)
+    link[a - 1].append(b)
+    link[b - 1].append(a)
 
 states = [0] * N
-
 for _ in range(Q):
     p, x = map(int, input().split())
     states[p - 1] += x
 
-for i, state in enumerate(states):
-    if state == 0:
-        continue
-    next_nodes = link[i]
-    if next_nodes is None:
-        continue
-    for node in next_nodes:
-        states[node - 1] += state
+check = [0] * N
+stack.append(1)
+check[0] = 1
+while stack:
+    node = stack.pop()
+    for next_node in link[node - 1]:
+        if check[next_node - 1]:
+            continue
+        states[next_node - 1] += states[node - 1]
+        check[next_node - 1] = 1
+        stack.append(next_node)
 
 # Output
 print(*states)
