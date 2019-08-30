@@ -1,4 +1,5 @@
-# WIP
+# DP Solution (DP[...] = Bool if values which satisfy ... exist)
+# AC
 from itertools import product
 
 N_str = input()
@@ -9,19 +10,21 @@ N = int(N_str)
 dp = [[[[[0] * 2 for _ in range(2)] for _ in range(2)] for _ in range(2)]
       for _ in range(len_N)]
 # dp[digit][is_max][is_3][is_5][is_7]
-"""
+
+# "non 3, 5, 7" and "not max" values exist
 for l in range(len_N):
     dp[l][0][0][0][0] = 1
-"""
+
 
 # DP at 0 digit
 for m in range(10):
     digit_0 = int(N_str[0])
     if m > digit_0:
         continue
-    if digit_0 in [3, 5, 7]:
+    if m in [3, 5, 7]:
         dp[0][digit_0 == m][m == 3][m == 5][m == 7] = 1
 
+# Current DP inherits last values
 for l, m, n, o, p in product(range(len_N - 1), range(10), range(2), range(2),
                              range(2)):
     if m in [3, 5, 7]:
