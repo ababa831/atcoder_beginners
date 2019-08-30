@@ -4,7 +4,6 @@ from itertools import product
 
 N_str = input()
 len_N = len(N_str)
-N = int(N_str)
 
 # DP Initialization
 dp = [[[[[0] * 2 for _ in range(2)] for _ in range(2)] for _ in range(2)]
