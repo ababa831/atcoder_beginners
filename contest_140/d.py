@@ -1,20 +1,26 @@
-# WIP (May be WA)
+# WA
 import sys
 input = sys.stdin.readline
 
-N, K = map(int, input())
+N, K = map(int, input().split())
 S = input()
 
-target_char = 'R' if S[0] == 'L' else 'L'
+last = ''
+sep_idcs = [0]
+base_happiness = 0
+for i, c in enumerate(S):
+    if i != 0:
+        if last != c:
+            base_happiness += i - sep_idcs[-1] - 1
+            sep_idcs.append(i)
+    last = c
+# The right edge
+len_seps = len(sep_idcs)
+if len_seps == 3:
+    base_happiness -= 1
 
-max_happiness = 0
-for l in range(1, N):
-    tmp_max = 0
-    tmpstate_max = ''
-    for r in range(l, N):
-        s_selected = S[l:r + 1]
-        tmp_val = S[l:r + 1].count(target_char)
-        if tmp_max < tmp_val:
-            tmp_max = tmp_val
-            tmpstate_max = s_selected
-            # WIP
+# print(sep_idcs)
+if len_seps % 2 and K == len_seps / 2:
+    print(base_happiness + 2 * K - 1)
+else:
+    print(base_happiness + 2 * K)
