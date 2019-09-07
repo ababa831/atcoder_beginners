@@ -4,7 +4,7 @@ for Cx, Cy in zip(range(0, 101), range(0, 101))
 hi + abs(Xi-Cx)+abs(Yi-Cy) == hj + abs(Xj-Cx)+abs(Yj-Cy)
 in All points
 
-Complexity: O(N^2) <= 10201
+Complexity: 101 * 101 * N -> Max: 101 * 101 * 100 = 1020100
 """
 import sys
 from itertools import product
