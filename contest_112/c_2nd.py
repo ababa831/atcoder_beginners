@@ -14,16 +14,22 @@ input = sys.stdin.readline
 N = int(input())
 xyh_list = [tuple(map(int, input().split())) for _ in range(N)]
 
+# There is one point where hi == 1:
+non0_hhh = []
+for x, y, h in xyh_list:
+    if h != 0:
+        non0_hhh.append([x, y, h])
+if len(non0_hhh) == 1:
+    print(*non0_hhh[0])
+    exit()
+
 for Cx, Cy in product(range(101), range(101)):
     last_H = None
     valid_flag = True
-    counter = 0
-    h_max = 0
     for i, (xi, yi, hi) in enumerate(xyh_list):
         if hi == 0:
             continue
         currnt_H = hi + abs(xi - Cx) + abs(yi - Cy)
-        counter += 1
         if last_H is None:
             last_H = currnt_H
         elif last_H != currnt_H:
@@ -31,11 +37,5 @@ for Cx, Cy in product(range(101), range(101)):
             break
 
     if valid_flag:
-        if counter != 1:
-            print(Cx, Cy, last_H)
-        else:
-            for xi, yi, hi in xyh_list:
-                if hi == 0:
-                    continue
-                print(xi, yi, hi)
+        print(Cx, Cy, last_H)
         exit()
