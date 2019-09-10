@@ -104,8 +104,8 @@ I will irregularly upload submitted codes of [AtCoder](https://atcoder.jp/) prob
 - [ABC117](https://atcoder.jp/contests/abc117)
   - [c](https://github.com/ababa893/atcoder_beginners/blob/master/contest_117/c.py)
     - **Review it later**
-- [ABC116]
-  - (None) 
+- [ABC116](https://beta.atcoder.jp/contests/abc116)
+  - [c](https://github.com/ababa893/atcoder_beginners/blob/master/contest_116/c_2nd.py)
 - [ABC115](https://beta.atcoder.jp/contests/abc115)
     - [a Christmas_Eve_Eve_Eve](https://github.com/ababa893/atcoder_beginners/blob/master/contest_115/a.py)
     - [b Christmas_Eve_Eve](https://github.com/ababa893/atcoder_beginners/blob/master/contest_115/b.py)
