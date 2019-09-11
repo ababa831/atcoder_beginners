@@ -1,13 +1,13 @@
-# WIP
+# WIP (AC, Test cases were not strict?)
 import sys
 input = sys.stdin.readline
 
-S = input()
-T = input()
+S = input().replace('\n', '')
+T = input().replace('\n', '')
 
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
 len_alphabet = len(alphabet)
-dict_alphabet = {chara: i for i, chara in alphabet}
+dict_alphabet = {chara: i for i, chara in enumerate(alphabet)}
 
 
 def calc_state(target_string):
@@ -29,6 +29,8 @@ state_idx_t, state_count_t = calc_state(T)
 if sorted(state_count_s) != sorted(state_count_t):
     print('No')
     exit()
+else:
+    print('Yes')
 
 # If the same alphabet appears twice in succession in S,
 # does the same law occurs in T?
