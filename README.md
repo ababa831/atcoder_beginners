@@ -125,6 +125,7 @@ I will irregularly upload submitted codes of [AtCoder](https://atcoder.jp/) prob
     - [c_/\/\/\/](https://github.com/ababa893/atcoder_beginners/blob/master/contest_111/c.py)
 - [ABC110](https://beta.atcoder.jp/contests/abc110)
     - [b_1dimentional_word's_tale](https://github.com/ababa893/atcoder_beginners/blob/master/contest_110/b_1dimentional_words_tale.py)
+    - [c](https://github.com/ababa893/atcoder_beginners/blob/master/contest_110/c.py)
 - [ABC109](https://beta.atcoder.jp/contests/abc109)
     - [a_abc333](https://github.com/ababa893/atcoder_beginners/blob/master/contest_109/a_abc333.py)
     - [b_shiritori](https://github.com/ababa893/atcoder_beginners/blob/master/contest_109/b_shiritori.py)
