@@ -129,7 +129,7 @@ I will irregularly upload submitted codes of [AtCoder](https://atcoder.jp/) prob
 - [ABC109](https://beta.atcoder.jp/contests/abc109)
     - [a_abc333](https://github.com/ababa893/atcoder_beginners/blob/master/contest_109/a_abc333.py)
     - [b_shiritori](https://github.com/ababa893/atcoder_beginners/blob/master/contest_109/b_shiritori.py)
-    - [c_skip](https://github.com/ababa893/atcoder_beginners/blob/master/contest_109/c_skip.py)
+    - [c_skip](https://github.com/ababa893/atcoder_beginners/blob/master/contest_109/c_2nd.py)
 - [ABC108](https://beta.atcoder.jp/contests/abc108)
     - First trial
         - [a_pair](https://github.com/ababa893/atcoder_beginners/blob/master/contest_108/a_pair.py)
