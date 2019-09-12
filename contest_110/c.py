@@ -1,4 +1,4 @@
-# WIP (AC, Test cases were not strict?)
+# AC
 import sys
 input = sys.stdin.readline
 
@@ -29,9 +29,15 @@ state_idx_t, state_count_t = calc_state(T)
 if sorted(state_count_s) != sorted(state_count_t):
     print('No')
     exit()
-else:
-    print('Yes')
 
 # If the same alphabet appears twice in succession in S,
 # does the same law occurs in T?
-# -> May be wrong strategy
+last_s = None
+last_t = None
+for s, t in zip(S, T):
+    if last_s == s and last_t != t:
+        print('No')
+        exit()
+    last_s, last_t = s, t
+
+print('Yes')
