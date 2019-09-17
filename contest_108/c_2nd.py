@@ -20,3 +20,5 @@ if K % 2:
     n_3types = (N // K) ** 3 - n_1type - n_2types
 else:
     n_3types = (N // (K//2)) ** 3 - n_1type - n_2types
+    
+print(n_1type+n_2types+n_3types)
