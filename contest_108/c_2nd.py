@@ -1,7 +1,7 @@
 # WIP
 N, K = map(int, input().split())
 
-n_1type, n_2types, n_3types = 0
+n_1type, n_2types, n_3types = 0, 0, 0
 
 if K % 2:
     # 1type (a==b==c)
