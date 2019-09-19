@@ -13,10 +13,17 @@ if K == 1:
 min_distance = 10000000000
 arg_min = 100000000
 for i in range(N-K+1):
-    tmp_larger = max(abs(xxx[i]), abs(xxx[i+K-1]))
+    left_edge, right_edge = xxx[i], xxx[i+K-1]
+    tmp_larger = max(abs(left_edge), abs(right_edge))
     if tmp_larger < min_distance:
         arg_min = i
         min_distance = tmp_larger
+    elif tmp_larger == min_distance and left_edge * right_edge > 0:
+        # If all elements of an extracted list
+        # are smaller than 0 or larger than 0
+        arg_min = i
+        min_distance = tmp_larger
+
 
 # Select route
 candles = xxx[arg_min:arg_min+K]
