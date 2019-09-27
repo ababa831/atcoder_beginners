@@ -10,6 +10,4 @@ if N < 0:
 else:
     digit = digit_canditate2 if digit_canditate2 % 2 else digit_canditate1
 
-ans_canditates = [[0, 0] for _ in range(2**digit)]
-# {0, 1} * (-2) ** k + ...
-# TODO: Calculation using DP
+# WIP
