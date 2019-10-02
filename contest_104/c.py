@@ -1,4 +1,4 @@
-# WIP (WA, a01, a04, b05, b20~b24)
+# WIP (WA)
 import sys
 
 sys_input = sys.stdin.readline
@@ -6,8 +6,6 @@ sys_input = sys.stdin.readline
 D, G = map(int, sys_input().split())
 pc_list = [tuple(map(int, sys_input().split())) for _ in range(D)]
 
-temp_min_score = 10000000000000000
-combi_min = []
 n_solved = 10000000000
 for i in range(1 << D):
     score_per_combi = 0
@@ -21,29 +19,38 @@ for i in range(1 << D):
             score_per_combi += (j + 1) * 100 * p + c
             combi.append(j)
             tmp_n_solved += p
+
     if tmp_n_solved == 0:
         continue
-    if score_per_combi >= G and tmp_n_solved < n_solved:
-        temp_min_score = score_per_combi
-        combi_min = combi
+    if score_per_combi < G:
+        continue
+
+    # problems are already sorted
+    # -> check if these were oversolved
+    for problem_idx in combi:
+        for solved_num in range(pc_list[problem_idx][0]):
+            diff = None
+            if solved_num == 1:
+                c = pc_list[problem_idx][1]
+                diff = (problem_idx + 1) * 100 + c
+                score_per_combi -= diff
+            else:
+                diff = (problem_idx + 1) * 100
+                score_per_combi -= diff
+            tmp_n_solved -= 1
+
+            if score_per_combi < G:
+                tmp_n_solved += 1
+                score_per_combi += diff
+                break
+            # Not finish innner loop -> continue outer loop
+            else:
+                continue
+            # Finish innner loop -> break outer loop
+            break
+
+    # Check if mininum n_solved are updated
+    if tmp_n_solved < n_solved:
         n_solved = tmp_n_solved
-
-# problems are already sorted
-# -> check if these were oversolved
-tmp_reduced = temp_min_score
-for problem_idx in combi_min:
-    for solved_num in range(pc_list[problem_idx][0]):
-        if solved_num == 1:
-            c = pc_list[problem_idx][1]
-            diff = (problem_idx + 1) * 100 + c
-            tmp_reduced -= diff
-        else:
-            diff = (problem_idx + 1) * 100
-            tmp_reduced -= diff
-        n_solved -= 1
-
-        if tmp_reduced < G:
-            print(n_solved + 1)
-            exit()
 
 print(n_solved)
