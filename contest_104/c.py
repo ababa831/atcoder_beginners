@@ -29,7 +29,7 @@ for i in range(1 << D):
         n_solved = tmp_n_solved
 
 # problems are already sorted
-# -> check the problems were oversolved
+# -> check if these were oversolved
 tmp_reduced = temp_min_score
 for problem_idx in combi_min:
     for solved_num in range(pc_list[problem_idx][0]):
