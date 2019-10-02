@@ -1,5 +1,3 @@
-
-# WIP, (WA)
 import sys
 
 sys_input = sys.stdin.readline
@@ -7,13 +5,15 @@ sys_input = sys.stdin.readline
 D, G = map(int, sys_input().split())
 pc_list = [tuple(map(int, sys_input().split())) for _ in range(D)]
 
+# WIP
 temp_min_score = 10000000000000000
 combi_min = []
-n_solved = 0
+n_solved = 10000000000
 for i in range(1 << D):
     score_per_combi = 0
     combi = []
     tmp_n_solved = 0
+    
     for j in range(D):
         if (i >> j) & 1:
             p = pc_list[j][0]
@@ -21,7 +21,7 @@ for i in range(1 << D):
             score_per_combi += (j + 1) * 100 * p + c
             combi.append(j)
             tmp_n_solved += p
-    if score_per_combi >= G and score_per_combi < temp_min_score:
+    if score_per_combi >= G and tmp_n_solved < n_solved:
         temp_min_score = score_per_combi
         combi_min = combi
         n_solved = tmp_n_solved
@@ -30,7 +30,7 @@ for i in range(1 << D):
 # -> check the problems were oversolved
 tmp_reduced = temp_min_score
 for problem_idx in combi_min:
-    for solved_num in range(1, pc_list[problem_idx][0] + 1):
+    for solved_num in range(pc_list[problem_idx][0]):
         if solved_num == 1:
             c = pc_list[problem_idx][1]
             diff = (problem_idx + 1) * 100 + c
