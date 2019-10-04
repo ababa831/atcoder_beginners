@@ -1,4 +1,4 @@
-# WIP (WA)
+# AC
 import sys
 
 sys_input = sys.stdin.readline
@@ -30,7 +30,7 @@ for i in range(1 << D):
     for problem_idx in combi:
         for solved_num in range(pc_list[problem_idx][0]):
             diff = None
-            if solved_num == 1:
+            if solved_num == 0:
                 c = pc_list[problem_idx][1]
                 diff = (problem_idx + 1) * 100 + c
             else:
