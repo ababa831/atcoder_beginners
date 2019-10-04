@@ -33,10 +33,9 @@ for i in range(1 << D):
             if solved_num == 1:
                 c = pc_list[problem_idx][1]
                 diff = (problem_idx + 1) * 100 + c
-                score_per_combi -= diff
             else:
                 diff = (problem_idx + 1) * 100
-                score_per_combi -= diff
+            score_per_combi -= diff
             tmp_n_solved -= 1
 
             if score_per_combi < G:
