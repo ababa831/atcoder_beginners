@@ -1,5 +1,5 @@
 # AC
-# I don't know why the logic works correctly
+# I coudn't explain why the logic works correctly
 import sys
 
 # Input
