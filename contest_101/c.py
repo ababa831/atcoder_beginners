@@ -1,4 +1,4 @@
-# WIP (Two test cases remains WA, The fucking code)
+# WA (The fucking code)
 import sys
 sys_input = sys.stdin.readline
 
@@ -14,5 +14,8 @@ n_calc = 0
 while n_remain > 0:
     n_remain += (-K+1)
     n_calc += 1
+    if n_remain == K:
+        n_calc += 1
+        break
 
 print(n_calc)
