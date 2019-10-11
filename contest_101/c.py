@@ -1,4 +1,4 @@
-# WIP (Two test caces remains WA, The fucking code)
+# WIP (Two test cases remains WA, The fucking code)
 import sys
 sys_input = sys.stdin.readline
 
