@@ -1,4 +1,4 @@
-# WA (The fucking code)
+# AC (The fucking code)
 import sys
 sys_input = sys.stdin.readline
 
