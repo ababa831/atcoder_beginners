@@ -2,6 +2,7 @@
 import sys
 sys_input = sys.stdin.readline
 
+
 N, K = map(int, sys_input().split())
 AAA = list(map(int, sys_input().split()))
 
