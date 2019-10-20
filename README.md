@@ -150,6 +150,7 @@ I will irregularly upload submitted codes of [AtCoder](https://atcoder.jp/) prob
     - [b_cakes_and_donuts](https://github.com/ababa893/atcoder_beginners/blob/master/contest_105/b_cakes_and_donuts.py)
 - [ABC104](https://beta.atcoder.jp/contests/abc104)
     - [b_accepted](https://github.com/ababa893/atcoder_beginners/blob/master/contest_104/b_accepted.py)
+    - [c](https://github.com/ababa893/atcoder_beginners/blob/master/contest_104/c.py)
 - [ABC103](https://beta.atcoder.jp/contests/abc103)
     - [b_string_rotation](https://github.com/ababa893/atcoder_beginners/blob/master/contest_103/b_string_rotation.py)
     - [c](https://github.com/ababa893/atcoder_beginners/blob/master/contest_103/c.py)
