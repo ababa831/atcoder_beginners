@@ -1,4 +1,4 @@
-# WIP
+# AC
 import sys
 sys_input = sys.stdin.readline
 N = int(sys_input())
@@ -11,14 +11,16 @@ if len(aaa_remain) == 1 and sum(aaa_remain) == 1:
     exit()
 
 aaa_even = [a for a in aaa if a % 2 == 0]
-target_a = max(aaa_even)
 
 n_divide = 0
 is_dividable = True
-while is_dividable:
-    is_dividable = False if target_a % 2 else True
-    if is_dividable:
-        target_a = target_a//2
-        n_divide += 1
+for a in aaa_even:
+    target_a = a
+    while is_dividable:
+        is_dividable = False if target_a % 2 else True
+        if is_dividable:
+            target_a = target_a//2
+            n_divide += 1
+    is_dividable = True
 
 print(n_divide)
