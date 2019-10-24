@@ -1,0 +1,2 @@
+# WIP
+N = int(input())
