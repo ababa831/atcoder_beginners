@@ -1,7 +1,6 @@
 # WIP（The fucking code）
 from math import log
 N = int(input())
-# log_N = log(N)
 
 
 def search_range(target_yen, remaining):
