@@ -36,6 +36,5 @@ while remaining > 0:
 
     remaining -= sub_number
     n_operation += selected_power
-    # print(remaining, selected_power, sub_number)
 
 print(n_operation)
