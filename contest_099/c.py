@@ -1,4 +1,4 @@
-# WIP（The fucking code）
+# WIP (The fucking code)
 from math import log
 N = int(input())
 
@@ -25,8 +25,8 @@ def get_selected_power(idx_canditate, power_9, power_6):
 n_operation = 0
 remaining = N
 while remaining > 0:
-    power_9, _ = search_range(6, remaining)
-    power_6, _ = search_range(9, remaining)
+    power_9, _ = search_range(9, remaining)
+    power_6, _ = search_range(6, remaining)
     canditate = [9**power_9, 6**power_6, 1]
     sub_number = max([9**power_9, 6**power_6, 1])
     idx_cand = canditate.index(sub_number)
@@ -36,5 +36,6 @@ while remaining > 0:
 
     remaining -= sub_number
     n_operation += selected_power
+    print(remaining, selected_power, sub_number)
 
 print(n_operation)
