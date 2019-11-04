@@ -36,5 +36,4 @@ while remaining > 0:
     if argmin_cand == 2:
         break
 
-# print('========')
 print(n_operation)
