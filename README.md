@@ -172,6 +172,7 @@ I will irregularly upload submitted codes of [AtCoder](https://atcoder.jp/) prob
     - [b_cut_and_count](https://github.com/ababa893/atcoder_beginners/blob/master/contest_098/b_cut_and_count.py)
 - [ABC097](https://beta.atcoder.jp/contests/abc097)
     - [b_exponential](https://github.com/ababa893/atcoder_beginners/blob/master/contest_097/b_exponential.py)
+    - [c](https://github.com/ababa893/atcoder_beginners/blob/master/contest_097/c.py)
 - [ABC096](https://beta.atcoder.jp/contests/abc096)
     - [b_maximum_sum](https://github.com/ababa893/atcoder_beginners/blob/master/contest_096/b_maximum_sum.py)
 - [ABC095](https://beta.atcoder.jp/contests/abc095)
