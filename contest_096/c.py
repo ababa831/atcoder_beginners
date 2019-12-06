@@ -1,4 +1,4 @@
-# WIP (DFS?, input 3 ?)
+# WIP (DFS?, example 3 ?)
 import sys
 from collections import deque
 
