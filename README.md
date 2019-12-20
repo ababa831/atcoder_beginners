@@ -178,6 +178,7 @@ I will irregularly upload submitted codes of [AtCoder](https://atcoder.jp/) prob
     - [b_maximum_sum](https://github.com/ababa893/atcoder_beginners/blob/master/contest_096/b_maximum_sum.py)
 - [ABC095](https://beta.atcoder.jp/contests/abc095)
     - [b_bitter_alchemy](https://github.com/ababa893/atcoder_beginners/blob/master/contest_095/b_bitter_alchemy.py)
+    - [c](https://github.com/ababa893/atcoder_beginners/blob/master/contest_095/c.py)
 - [ABC094](https://beta.atcoder.jp/contests/abc094)
     - [b_toll_gates](https://github.com/ababa893/atcoder_beginners/blob/master/contest_094/b_toll_gates.py)
 - [ABC093](https://beta.atcoder.jp/contests/abc093)
