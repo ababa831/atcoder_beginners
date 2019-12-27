@@ -1,32 +1,41 @@
+# WIP
 A, B, C = map(int, input().split())
 
-if A == B == C:
-    print(0)
-    exit()
-
 combi = [A, B, C]
-max_ABC = max([A, B, C])
-other = [c for c in combi if c != max_ABC]
-max_other = max(other)
-min_other = min(other)
+set_abc = set(combi)
 
-# Operation (1st method)
-n_operation = max_ABC - max_other
-max_other += n_operation
-min_other += n_operation
-
-if max_ABC == max_other == min_other:
-    print(n_operation)
-    exit()
-
-# Operation (2nd method)
-diff = max_ABC - min_other
-if diff % 2 and diff == 1:
-    n_add = (max_ABC - min_other) // 2 + 2
-elif diff % 2:
-    n_add = (max_ABC - min_other) // 2 + 1
+len_set_abc = len(set_abc)
+max_set = max(set_abc)
+min_set = min(set_abc)
+if len_set_abc == 1:
+    print(0)
+elif len_set_abc == 2:
+    max_freq = combi.count(max_set)
+    diff = max_set - min_set
+    if max_freq == 2 and diff % 2:
+        print((diff + 1) // 2 + 1)
+    elif max_freq == 2:
+        print(diff // 2)
+    else:
+        print(diff)
 else:
-    n_add = (max_ABC - min_other) // 2
-n_operation += n_add
+    other = [c for c in combi if c != max_set]
+    max_other = max(other)
+    min_other = min(other)
 
-print(n_operation)
+    # Operation (1st method)
+    n_operation = max_set - max_other
+    max_other += n_operation
+    min_other += n_operation
+
+    # Operation (2nd method)
+    diff = max_set - min_other
+    if diff % 2 and diff == 1:
+        n_add = (max_set - min_other) // 2 + 2
+    elif diff % 2:
+        n_add = (max_set - min_other) // 2 + 1
+    else:
+        n_add = (max_set - min_other) // 2
+    n_operation += n_add
+
+    print(n_operation)
