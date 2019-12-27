@@ -15,7 +15,7 @@ n_operation = max_ABC - max_other
 max_other += n_operation
 min_other += n_operation
 
-if max_other == min_other:
+if max_ABC == max_other == min_other:
     print(n_operation)
     exit()
 
