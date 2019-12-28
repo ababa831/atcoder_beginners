@@ -23,12 +23,10 @@ else:
     max_other = max(other)
     min_other = min(other)
 
-    # Operation (1st method)
     n_operation = max_set - max_other
     max_other += n_operation
     min_other += n_operation
 
-    # Operation (2nd method)
     diff = max_set - min_other
     if diff % 2 and diff == 1:
         n_add = (max_set - min_other) // 2 + 2
