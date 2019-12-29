@@ -1,4 +1,4 @@
-# WIP
+# AC, (Careless mistake)
 A, B, C = map(int, input().split())
 
 combi = [A, B, C]
@@ -28,10 +28,9 @@ else:
     min_other += n_operation
 
     diff = max_set - min_other
-    if diff % 2 and diff == 1:
+
+    if diff % 2:
         n_add = (max_set - min_other) // 2 + 2
-    elif diff % 2:
-        n_add = (max_set - min_other) // 2 + 1
     else:
         n_add = (max_set - min_other) // 2
     n_operation += n_add
