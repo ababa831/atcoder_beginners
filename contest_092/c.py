@@ -11,6 +11,6 @@ basic_cost = sum([abs(AAA[i + 1] - A) for i, A in enumerate(AAA[:N + 1])])
 for i, A in enumerate(AAA[:N + 1]):
     if i == 0:
         continue
-    adjusted_cost = basic_cost - abs(A - AAA[i-1]) - abs(A - AAA[i+1]) + \
-        abs(AAA[i+1]-AAA[i-1])
+    adjusted_cost = basic_cost - abs(A - AAA[i-1]) - abs(A - AAA[i+1]) \
+        + abs(AAA[i+1]-AAA[i-1])
     print(adjusted_cost)
