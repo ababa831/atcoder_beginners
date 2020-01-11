@@ -188,6 +188,7 @@ I will irregularly upload submitted codes of [AtCoder](https://atcoder.jp/) prob
         - [b_small_and_large_integers](https://github.com/ababa893/atcoder_beginners/blob/master/contest_093/b_small_and_large_integers_2nd.py)
 - [ABC092](https://beta.atcoder.jp/contests/abc092)
     - [b_chocolate](https://github.com/ababa893/atcoder_beginners/blob/master/contest_092/b_chocolate.py)
+    - [c](https://github.com/ababa893/atcoder_beginners/blob/master/contest_092/c.py)
 - [ABC091](https://beta.atcoder.jp/contests/abc091)
     - [b_two_colors_card_game](https://github.com/ababa893/atcoder_beginners/blob/master/contest_091/b_two_colors_card_game.py)
 - [ABC090](https://beta.atcoder.jp/contests/abc090)
