@@ -10,7 +10,7 @@ blue_points = sorted(blue_points, key=lambda x: (x[0]**2 + x[1]**2)**0.5)
 
 # Enumerate all combinations (with duplications)
 # -> How to select non-duplicated pairs?
-canditates = [[None] for _ in range(N)]
+canditates = [[] for _ in range(N)]
 for red in red_points:
     for i, blue in enumerate(blue_points):
         if red[0] < blue[0] and red[1] < blue[1]:
