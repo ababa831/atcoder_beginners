@@ -13,7 +13,6 @@ init_counts = {init_c: cand_inits.count(init_c) for init_c in filter_1}
 # TODO: Deal with duplication
 # e.g. {C, M1, M2, R1, R2, A}
 # patterns: {[C, M, R], [C, M, A], [C, R, A], [M, R, A]}
-#    pattern = 4C3  # 4 means len([C, M, R, A])  
 #    if M and R in pattern:
 #       combi1 = pattern * n_Mgroup * n_Rgroup
 #    if M in pattern:
